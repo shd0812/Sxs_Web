@@ -5866,3 +5866,57 @@ WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
 [Child 3580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1520757284305	geckodriver	INFO	geckodriver 0.19.1
+1520757284332	geckodriver	INFO	Listening on 127.0.0.1:64726
+1520757287424	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.vkCkxUk5M9iv"
+1520757290215	Marionette	INFO	Enabled via --marionette
+1520757296514	Marionette	INFO	Listening on port 64735
+1520757297139	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://www.shaxiaoseng.com/User/register.html, line 618: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/register.html, line 618: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/register.html, line 618: TypeError: version[1] is undefined
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+console.error: PushService: 
+  Failed to drop expired registrations on idle
+  UnknownError
+vr\openvrpaths.vrpath
+[Parent 7108, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1520757435312	geckodriver	INFO	geckodriver 0.19.1
+1520757435335	geckodriver	INFO	Listening on 127.0.0.1:64955
+1520757438417	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.lOmnqWyKuDW6"
+1520757441754	Marionette	INFO	Enabled via --marionette
+1520757448094	Marionette	INFO	Listening on port 64963
+1520757448584	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 566: TypeError: version[1] is undefined
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11520757476320	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.HFvCl68a3DSF"
+1520757479352	Marionette	INFO	Enabled via --marionette
+1520757484130	Marionette	INFO	Listening on port 65055
+1520757484404	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 566: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 549: ReferenceError: event is not defined

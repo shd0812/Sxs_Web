@@ -1,0 +1,9 @@
+-
+  test_name: 账号
+  test_control: id=>tel
+-
+  test_name: 密码
+  test_control: id=>password
+-
+  test_name: 登录
+  test_control: id=>login

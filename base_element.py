@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.select import Select
-
+import  dd_utils
 
 class DD_element(object):
     '''
@@ -414,10 +414,13 @@ class DD_element(object):
 if __name__ == '__main__':
     driver = DD_element("firefox")
     driver.open('https://www.shaxiaoseng.com')
-    driver.click("link_text=>我要出借")
-    #driver.type("id=>tel",'13521137793')
-    #driver.type("id=>password", '111113')
-    #driver.click("id=>login")
+    driver.click("link_text=>登录")
+    operate_file = dd_utils.operate_file('test_data/login.yaml')
+    data = operate_file.open()
+    print(data)
+    driver.type(data[0]['test_control'],'13521137793')
+    driver.type(data[1]['test_control'], '111111')
+    driver.click(data[2]['test_control'])
     print(driver.get_url())
     driver.get_screenshot('d:/name.png')
     driver.close()

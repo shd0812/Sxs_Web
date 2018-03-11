@@ -95,9 +95,9 @@ if __name__ == '__main__':
     # mobile = '13801000001'
     # sql = "SELECT verify FROM vault_user_mobile_verify WHERE mobile = '%s'" % mobile
     # print(my_db.get_data(sql))
-    operate_file = operate_file('test_data/fang.yaml')
+    operate_file = operate_file('test_data/login.yaml')
     data=operate_file.open()
-    print(data)
+    print(data[1]['test_control'])
 
 
 

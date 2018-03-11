@@ -1,0 +1,23 @@
+-
+  test_name: 账号
+  test_control: id=>tel
+-
+  test_name: 密码
+  test_control: id=>password
+-
+  test_name: 图形验证码输入框
+  test_control: id=>mcode_img
+-
+  test_name: 验证码
+  test_control: id=chgmcode
+-
+  test_name: 手机验证码
+  test_control: id=>mcode
+
+-
+  test_name: 获取验证码
+  test_control: id=>djs
+-
+  test_name: 立即注册
+  test_control: id=>reg
+
