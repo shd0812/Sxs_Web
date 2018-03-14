@@ -1,3 +1,6 @@
+test_valite:
+  name
+test_element:
 -
   test_name: 账号
   test_control: id=>tel
