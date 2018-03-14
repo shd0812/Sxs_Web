@@ -425,7 +425,7 @@ if __name__ == '__main__':
 	driver.click(dd_utils.ob_element(data,2))
 	
 	print(driver.get_url())
-	
+	#
 	
 	print(driver.get_title())
 	driver.close()
