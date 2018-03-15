@@ -413,7 +413,7 @@ class DD_element(object):
 
 
 if __name__ == '__main__':
-	driver = DD_element("firefox")
+	driver = DD_element("ff")
 	driver.open('https://www.shaxiaoseng.com')
 	print(driver.get_title())
 	driver.click("link_text=>登录")
@@ -428,4 +428,12 @@ if __name__ == '__main__':
 	#
 	
 	print(driver.get_title())
+	try:
+		driver.verifyTitle(driver.get_title(),'沙小僧-取金之路 小沙为您保驾护航')
+	except Exception as e:
+		print(e)
+	else:
+		pass
+	finally:
+		pass
 	driver.close()
