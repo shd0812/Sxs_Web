@@ -28,6 +28,8 @@ class LoginTest(unittest.TestCase):
 			self.driver.click(dd_utils.ob_element(data,0))
 			self.driver.click(dd_utils.ob_element(data,1))
 			self.driver.click(dd_utils.ob_element(data,2))
+			self.driver.click(dd_utils.ob_element(data, 5))
+			self.driver.click(dd_utils.ob_element(data, 6))
 			time.sleep(4)
 		except AssertionError:
 			print('登录失败')
