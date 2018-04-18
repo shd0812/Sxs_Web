@@ -7,10 +7,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.select import Select
-import	dd_utils
+import	utils
 import time
 
-class DD_element(object):
+class Action(object):
 	'''
 		Pyse framework for the main class, the original
 	selenium provided by the method of the two packaging,
@@ -19,30 +19,33 @@ class DD_element(object):
 
 	original_window = None
 
-	def __init__(self, browser='ff'):
+	def __init__(self, selenium_driver,base_url='https://pc.shaxiaoseng.com:4433',pagetitle='登录'):
 		'''
 		Run class initialization method, the default is proper
 		to drive the Firefox browser. Of course, you can also
 		pass parameter for other browser, Chrome browser for the "Chrome",
 		the Internet Explorer browser for "internet explorer" or "ie".
 		'''
-		if browser == "firefox" or browser == "ff":
-			self.driver = webdriver.Firefox()
-		elif browser == "chrome":
-			self.driver = webdriver.Chrome()
-		elif browser == "internet explorer" or browser == "ie":
-			self.driver = webdriver.Ie()
-		elif browser == "opera":
-			self.driver = webdriver.Opera()
-		elif browser == "chrome_headless":
-			chrome_options = Options()
-			chrome_options.add_argument('--headless')
-			self.driver = webdriver.Chrome(chrome_options=chrome_options)
-		elif browser == 'edge':
-			self.driver = webdriver.Edge()
-		else:
-			raise NameError(
-				"Not found %s browser,You can enter 'ie', 'ff', 'opera', 'edge', 'chrome' or 'chrome_headless'." % browser)
+		self.base_url=base_url
+		self.pagetitle = pagetitle
+		self.driver = selenium_driver
+		# if browser == "firefox" or browser == "ff":
+			# self.driver = webdriver.Firefox()
+		# elif browser == "chrome":
+			# self.driver = webdriver.Chrome()
+		# elif browser == "internet explorer" or browser == "ie":
+			# self.driver = webdriver.Ie()
+		# elif browser == "opera":
+			# self.driver = webdriver.Opera()
+		# elif browser == "chrome_headless":
+			# chrome_options = Options()
+			# chrome_options.add_argument('--headless')
+			# self.driver = webdriver.Chrome(chrome_options=chrome_options)
+		# elif browser == 'edge':
+			# self.driver = webdriver.Edge()
+		# else:
+			# raise NameError(
+				# "Not found %s browser,You can enter 'ie', 'ff', 'opera', 'edge', 'chrome' or 'chrome_headless'." % browser)
 
 	def element_wait(self, by, value, secs=5):
 		'''
@@ -97,15 +100,25 @@ class DD_element(object):
 			raise NameError(
 				"Please enter the correct targeting elements,'id','name','class','link_text','xpath','css'.")
 		return element
-
-	def open(self, url):
+	
+	def _open(self, url, pagetitle):
+		self.driver.get(url)
+		self.driver.maximize_window()
+		#使用assert进行校验，打开的链接地址是否与配置的地址一致。调用on_page()方法
+		assert self.on_page(pagetitle), u"打开开页面失败 %s"% url
+		
+	#使用current_url获取当前窗口Url地址，进行与配置地址作比较，返回比较结果（True False）
+	def on_page(self, pagetitle):
+		return pagetitle in self.driver.title
+	
+	def open(self):
 		'''
 		open url.
 
 		Usage:
 		driver.open("https://www.baidu.com")
 		'''
-		self.driver.get(url)
+		self._open(self.base_url, self.pagetitle)
 
 	def max_window(self):
 		'''
@@ -413,27 +426,19 @@ class DD_element(object):
 
 
 if __name__ == '__main__':
-	driver = DD_element("ff")
-	driver.open('https://www.shaxiaoseng.com')
-	print(driver.get_title())
-	driver.click("link_text=>登录")
-	operate_file = dd_utils.operate_file('test_data/login.yaml')
+	driver =webdriver.Firefox()
+	login = Action(driver,'https://www.shaxiaoseng.com/User/login.html')
+	login.open()
+	print(login.get_title())
+	#driver.click("link_text=>登录")
+	operate_file = utils.operate_file('test_data/login.yaml')
 	data = operate_file.open()
 	print(data)
-	driver.type(dd_utils.ob_element(data,0),'13521137793')
-	driver.type(dd_utils.ob_element(data,1), '111111')
-	driver.click(dd_utils.ob_element(data,2))
+	login.type(utils.ob_element(data,0),'13521137793')
+	login.type(utils.ob_element(data,1), '111111')
+	login.click(utils.ob_element(data,2))
 	
-	print(driver.get_url())
+	print(login.get_url())
 	#
 	
-	print(driver.get_title())
-	try:
-		driver.verifyTitle(driver.get_title(),'沙小僧-取金之路 小沙为您保驾护航')
-	except Exception as e:
-		print(e)
-	else:
-		pass
-	finally:
-		pass
-	driver.close()
+	
