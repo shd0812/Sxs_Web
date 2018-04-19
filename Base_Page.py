@@ -61,8 +61,12 @@ class Action(object):
 			WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.LINK_TEXT, value)))
 		elif by == "xpath":
 			WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.XPATH, value)))
-		elif by == "css":
+		elif by == "css": #presence_of_all_elements_located
 			WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.CSS_SELECTOR, value)))
+		elif by == "tag": #presence_of_all_elements_located
+			WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.TAG_NAME, value)))
+		elif by == "stag": #presence_of_all_elements_located
+			WebDriverWait(self.driver, secs, 1).until(EC.presence_of_all_elements_located((By.TAG_NAME, value)))
 		else:
 			raise NoSuchElementException(
 				"Not find element, Please check the syntax error.")
@@ -76,6 +80,7 @@ class Action(object):
 			value = css
 			# wait element.
 			self.element_wait(by, css)
+			
 		else:
 			by = css.split("=>")[0]
 			value = css.split("=>")[1]
@@ -83,7 +88,7 @@ class Action(object):
 				raise NameError(
 					"Grammatical errors,reference: 'id=>useranme'.")
 			self.element_wait(by, value)
-
+		print(by)
 		if by == "id":
 			element = self.driver.find_element_by_id(value)
 		elif by == "name":
@@ -96,6 +101,12 @@ class Action(object):
 			element = self.driver.find_element_by_xpath(value)
 		elif by == "css":
 			element = self.driver.find_element_by_css_selector(value)
+		elif by== "tag":
+			print(by)
+			element = self.driver.find_element_by_tag_name(value)
+		elif by=='stag':
+			
+			element = self.driver.find_elements_by_tag_name(value)
 		else:
 			raise NameError(
 				"Please enter the correct targeting elements,'id','name','class','link_text','xpath','css'.")
@@ -128,7 +139,8 @@ class Action(object):
 		driver.max_window()
 		'''
 		self.driver.maximize_window()
-
+	
+	
 	def set_window(self, wide, high):
 		'''
 		Set browser window wide and high.
@@ -304,7 +316,21 @@ class Action(object):
 		driver.get_title()
 		'''
 		return self.driver.title
-
+		
+		#产品列表专用
+	def pick_element(self,dealNo):
+		dlList = self.get_element("stag=>dl")
+		for element in dlList:
+			try: 
+				productNumberSpan = element.find_element_by_css_selector("dt span")
+				#判断产品编号
+				if productNumberSpan.text ==dealNo:
+					element.find_element_by_css_selector("dd h5 a").click()
+			except  :
+				print('异常'  )
+			finally:
+				print('继续')
+	
 	def get_url(self):
 		'''
 		Get the URL address of the current page.
@@ -427,18 +453,19 @@ class Action(object):
 
 if __name__ == '__main__':
 	driver =webdriver.Firefox()
-	login = Action(driver,'https://www.shaxiaoseng.com/User/login.html')
+	login = Action(driver,'https://www.shaxiaoseng.com/Product/index.html','四方化缘列表_沙小僧官网')
 	login.open()
-	print(login.get_title())
-	#driver.click("link_text=>登录")
-	operate_file = utils.operate_file('test_data/login.yaml')
-	data = operate_file.open()
-	print(data)
-	login.type(utils.ob_element(data,0),'13521137793')
-	login.type(utils.ob_element(data,1), '111111')
-	login.click(utils.ob_element(data,2))
+	login.pick_element("XY18041953439期")
+	# print(login.get_title())
+	# #driver.click("link_text=>登录")
+	# operate_file = utils.operate_file('test_data/login.yaml')
+	# data = operate_file.open()
+	# print(data)
+	# login.type(utils.ob_element(data,0),'13521137793')
+	# login.type(utils.ob_element(data,1), '111111')
+	# login.click(utils.ob_element(data,2))
 	
-	print(login.get_url())
+	# print(login.get_url())
 	#
 	
 	
