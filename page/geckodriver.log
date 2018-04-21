@@ -1,0 +1,168 @@
+1524323809680	geckodriver	INFO	geckodriver 0.19.1
+1524323809703	geckodriver	INFO	Listening on 127.0.0.1:49401
+1524323812773	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.y6RRU9TJVwcu"
+1524323815500	Marionette	INFO	Enabled via --marionette
+1524323820515	Marionette	INFO	Listening on port 49413
+1524323820840	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: chrome://marionette/content/driver.js :: GeckoDriver.prototype.maximizeWindow/windowSizeChange/< :: line 3137"  data: no]
+GeckoDriver.prototype.maximizeWindow/windowSizeChange/<@chrome://marionette/content/driver.js:3137:9
+evalFn@chrome://marionette/content/sync.js:93:7
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 10024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1524323840095	geckodriver	INFO	geckodriver 0.19.1
+1524323840123	geckodriver	INFO	Listening on 127.0.0.1:49498
+1524323843229	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.NLocVo4S2m9K"
+1524323846079	Marionette	INFO	Enabled via --marionette
+1524323851084	Marionette	INFO	Listening on port 49510
+1524323851569	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+axiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1524324468437	geckodriver	INFO	geckodriver 0.19.1
+1524324468463	geckodriver	INFO	Listening on 127.0.0.1:50724
+1524324471549	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.UKOY5eZXZD4Q"
+1524324474500	Marionette	INFO	Enabled via --marionette
+1524324480377	Marionette	INFO	Listening on port 50743
+1524324481332	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 580: TypeError: version[1] is undefined
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+FO	Enabled via --marionette
+1524324531762	Marionette	INFO	Listening on port 50885
+1524324532126	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 81524325362074	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.lExj4NdJwetB"
+1524325364477	Marionette	INFO	Enabled via --marionette
+1524325371008	Marionette	INFO	Listening on port 52485
+1524325371721	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined

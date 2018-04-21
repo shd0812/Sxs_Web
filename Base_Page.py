@@ -19,7 +19,7 @@ class Action(object):
 
 	original_window = None
 
-	def __init__(self, selenium_driver,base_url='https://pc.shaxiaoseng.com:4433',pagetitle='登录'):
+	def __init__(self, selenium_driver,base_url,pagetitle):
 		'''
 		Run class initialization method, the default is proper
 		to drive the Firefox browser. Of course, you can also
@@ -326,7 +326,8 @@ class Action(object):
 				#判断产品编号
 				if productNumberSpan.text ==dealNo:
 					return element.find_element_by_css_selector("dd h5 a").click()
-					
+				else:
+					print('请检查标的号是否正确')
 			except  :
 				print('异常'  )
 			
