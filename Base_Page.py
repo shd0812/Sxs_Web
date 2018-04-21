@@ -325,11 +325,11 @@ class Action(object):
 				productNumberSpan = element.find_element_by_css_selector("dt span")
 				#判断产品编号
 				if productNumberSpan.text ==dealNo:
-					element.find_element_by_css_selector("dd h5 a").click()
+					return element.find_element_by_css_selector("dd h5 a").click()
+					
 			except  :
 				print('异常'  )
-			finally:
-				print('继续')
+			
 	
 	def get_url(self):
 		'''
