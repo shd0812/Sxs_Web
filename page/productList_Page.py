@@ -3,8 +3,8 @@ from selenium import webdriver
 
 class ProductList_Page(Base_Page.Action):
 		
-		def __init__(self, selenium_driver,base_url,pagetitle):
-			super(ProductList_Page, self).__init__(selenium_driver, base_url,pagetitle)
+		def __init__(self, browser):
+			super(ProductList_Page, self).__init__(browser)
 
 		# 获取产品列表 有用数据 仅四方化缘
 		def get_ProductInfo(self, dealNo):
@@ -36,9 +36,7 @@ class ProductList_Page(Base_Page.Action):
 		
 if __name__ == '__main__':
 	url = 'https://www.shaxiaoseng.com/Product/index.html'
-	title='四方化缘列表_沙小僧官网'
-	driver = webdriver.Firefox()
-	page = ProductList_Page(driver,url,title)
-	page.open()
+	page = ProductList_Page('ff')
+	page.open(url)
 	page.get_ProductInfo('XY18042117495期')
 			

@@ -19,33 +19,31 @@ class Action(object):
 
 	original_window = None
 
-	def __init__(self, selenium_driver,base_url,pagetitle):
+	def __init__(self, browser):
 		'''
 		Run class initialization method, the default is proper
 		to drive the Firefox browser. Of course, you can also
 		pass parameter for other browser, Chrome browser for the "Chrome",
 		the Internet Explorer browser for "internet explorer" or "ie".
 		'''
-		self.base_url=base_url
-		self.pagetitle = pagetitle
-		self.driver = selenium_driver
-		# if browser == "firefox" or browser == "ff":
-			# self.driver = webdriver.Firefox()
-		# elif browser == "chrome":
-			# self.driver = webdriver.Chrome()
-		# elif browser == "internet explorer" or browser == "ie":
-			# self.driver = webdriver.Ie()
-		# elif browser == "opera":
-			# self.driver = webdriver.Opera()
-		# elif browser == "chrome_headless":
-			# chrome_options = Options()
-			# chrome_options.add_argument('--headless')
-			# self.driver = webdriver.Chrome(chrome_options=chrome_options)
-		# elif browser == 'edge':
-			# self.driver = webdriver.Edge()
-		# else:
-			# raise NameError(
-				# "Not found %s browser,You can enter 'ie', 'ff', 'opera', 'edge', 'chrome' or 'chrome_headless'." % browser)
+
+		if browser == "firefox" or browser == "ff":
+			self.driver = webdriver.Firefox()
+		elif browser == "chrome":
+			self.driver = webdriver.Chrome()
+		elif browser == "internet explorer" or browser == "ie":
+			self.driver = webdriver.Ie()
+		elif browser == "opera":
+			self.driver = webdriver.Opera()
+		elif browser == "chrome_headless":
+			chrome_options = Options()
+			chrome_options.add_argument('--headless')
+			self.driver = webdriver.Chrome(chrome_options=chrome_options)
+		elif browser == 'edge':
+			self.driver = webdriver.Edge()
+		else:
+			raise NameError(
+				"Not found %s browser,You can enter 'ie', 'ff', 'opera', 'edge', 'chrome' or 'chrome_headless'." % browser)
 
 	def element_wait(self, by, value, secs=5):
 		'''
@@ -88,7 +86,7 @@ class Action(object):
 				raise NameError(
 					"Grammatical errors,reference: 'id=>useranme'.")
 			self.element_wait(by, value)
-		print(by)
+		#print(by)
 		if by == "id":
 			element = self.driver.find_element_by_id(value)
 		elif by == "name":
@@ -102,7 +100,7 @@ class Action(object):
 		elif by == "css":
 			element = self.driver.find_element_by_css_selector(value)
 		elif by== "tag":
-			print(by)
+			#print(by)
 			element = self.driver.find_element_by_tag_name(value)
 		elif by=='stag':
 			
@@ -112,24 +110,16 @@ class Action(object):
 				"Please enter the correct targeting elements,'id','name','class','link_text','xpath','css'.")
 		return element
 	
-	def _open(self, url, pagetitle):
-		self.driver.get(url)
-		self.driver.maximize_window()
-		#使用assert进行校验，打开的链接地址是否与配置的地址一致。调用on_page()方法
-		assert self.on_page(pagetitle), u"打开开页面失败 %s"% url
-		
-	#使用current_url获取当前窗口Url地址，进行与配置地址作比较，返回比较结果（True False）
-	def on_page(self, pagetitle):
-		return pagetitle in self.driver.title
+
 	
-	def open(self):
+	def open(self,url):
 		'''
 		open url.
 
 		Usage:
 		driver.open("https://www.baidu.com")
 		'''
-		self._open(self.base_url, self.pagetitle)
+		return  self.driver.get(url)
 
 	def max_window(self):
 		'''
@@ -150,7 +140,7 @@ class Action(object):
 		'''
 		self.driver.set_window_size(wide, high)
 
-	def type(self, css, text):
+	def input(self, css, text):
 		'''
 		Operation input box.
 
@@ -453,9 +443,9 @@ class Action(object):
 
 
 if __name__ == '__main__':
-	driver =webdriver.Firefox()
-	login = Action(driver,'https://www.shaxiaoseng.com/Product/index.html','四方化缘列表_沙小僧官网')
-	login.open()
+
+	login = Action('ff')
+	login.open('https://pc.shaxiaoseng.com:4433/Product/index.html')
 	login.pick_element("XY18041953439期")
 	# print(login.get_title())
 	# #driver.click("link_text=>登录")
