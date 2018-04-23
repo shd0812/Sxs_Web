@@ -31,22 +31,16 @@ class productInfo_page(loginPage.LoginPage):
     def inputInvest_Money(self,money):
         self.input(self.moneyInput_loc,money)
 
-    def clickBtn(self):
+    def clickBuyBtn(self):
         if self.isLogin():
-            print('哈哈哈')
             self.click(self.submitBtn_loc)
-
         else:
             self.click(self.submitBtn_loc)
-            print('嘿嘿嘿')
             account='13511111105'
             passwd='111111'
             self.input_account(account)
-            print('嘿嘿嘿111')
             self.input_passwd(passwd)
-            print('嘿嘿嘿222')
             self.click_LoginSubmit()
-            print('嘿嘿嘿333')
             self.inputInvest_Money(100)
             self.click(self.submitBtn_loc)
 
@@ -61,5 +55,5 @@ if __name__ == '__main__':
     page.open(url)
     page.getRemain_Money()
     page.inputInvest_Money(100)
-    page.clickBtn()
+    page.clickBuyBtn()
 
