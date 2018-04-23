@@ -11,6 +11,9 @@ class productInfo_page(loginPage.LoginPage):
     moneyInput_loc='class=>money-j'
     rightBtn_loc='class=>add-j'
     submitBtn_loc='class=>btn-j'
+    projectInfo_loc='xpath=>/html/body/div[3]/div[4]/ul/li[1]'
+    borrowerInfo_loc='xpath=>/html/body/div[3]/div[4]/ul/li[2]'
+    lendRecord_loc='xpath=>/html/body/div[3]/div[4]/ul/li[3]'
     def __init__(self, browser):
         super(productInfo_page, self).__init__(browser)
     #判断是否登录
@@ -43,17 +46,27 @@ class productInfo_page(loginPage.LoginPage):
             self.click_LoginSubmit()
             self.inputInvest_Money(100)
             self.click(self.submitBtn_loc)
+    # 查看项目详情 借款人信息 出借记录 1,2,3
+    def viewProjectInfo(self,type):
+        if type ==1:
+            self.click(self.projectInfo_loc)
+        elif type==2:
+            self.click(self.borrowerInfo_loc)
+        else:
+            self.click(self.lendRecord_loc)
 
 
 
 
 if __name__ == '__main__':
     url = 'https://pc.shaxiaoseng.com:4433/Sanbiao/details/id/6236.html'
+    url='https://www.shaxiaoseng.com/Sanbiao/details/id/3691.html'
 
 
     page = productInfo_page('ff')
     page.open(url)
-    page.getRemain_Money()
-    page.inputInvest_Money(100)
-    page.clickBuyBtn()
+    # page.getRemain_Money()
+    # page.inputInvest_Money(100)
+    # page.clickBuyBtn()
+    page.viewProjectInfo(2)
 
