@@ -325,7 +325,7 @@ class Action(object):
 				else:
 					print('请检查标的号是否正确')
 			except  :
-				print('异常'  )
+				raise Exception
 			
 	
 	def get_url(self):

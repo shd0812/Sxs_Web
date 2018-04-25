@@ -9,7 +9,7 @@ class productInfo_page(productList_Page.ProductList_Page):
     #输入框左侧减号按钮
     leftBtn_loc='class=>reduce-j'
     # 金额输入框
-    moneyInput_loc='class=>money-j'
+    moneyInput_loc='xpath=>//*[@id="form"]/input[2]'
     # 输入框右侧侧减号按钮
     rightBtn_loc='class=>add-j'
     # 立即加入那妞
@@ -20,6 +20,9 @@ class productInfo_page(productList_Page.ProductList_Page):
     borrowerInfo_loc='xpath=>/html/body/div[3]/div[4]/ul/li[2]'
     # 出借记录
     lendRecord_loc='xpath=>/html/body/div[3]/div[4]/ul/li[3]'
+    #输入框下的提示信息
+    msg='xpath=>/html/body/div[3]/div[2]/div[2]/div/div/p[3]/span'
+
 
     # 检查字段
     expect_title='四方化缘详情'
@@ -29,11 +32,41 @@ class productInfo_page(productList_Page.ProductList_Page):
     #获取剩余金额
     def getRemain_Money(self):
         money = self.get_text(self.remainMoney_loc)
-
-        return  money
-    # 输入投资金额 如果不输入则默认输入剩余最大的金额
+        money = money[0:len(money) - 3]
+        return  int(money)
+    # 输入投资金额
     def inputInvest_Money(self,money):
-        self.input(self.moneyInput_loc,money)
+
+
+        remain_money = self.getRemain_Money()
+        #判断是否大于所剩金额
+        if int(money) > remain_money:
+            self.input(self.moneyInput_loc, money)
+            #判断如果存在提示信息，则输入金额等于所剩金额
+            if self.element_IsExit(self.msg):
+                mymoney = str(remain_money)
+                self.F5()
+                self.input(self.moneyInput_loc, mymoney)
+            else:
+                raise Exception
+        #是否小于100
+        elif int(money)<100:
+            #判断如果存在提示信息，则输入金额等于所剩金额
+            if self.element_IsExit(self.msg):
+                mymoney = str(remain_money)
+                self.input(self.moneyInput_loc, mymoney)
+            else:
+                raise Exception
+        elif int(money)%100 !=0:
+            #判断如果存在提示信息，则输入金额等于所剩金额
+            if self.element_IsExit(self.msg):
+                mymoney = str(remain_money)
+                self.input(self.moneyInput_loc, mymoney)
+
+            else:
+                raise Exception
+        else:
+            self.input(self.moneyInput_loc,money)
 
     #点击立即加入按钮 如果没登录，则输入账号，密码，金额
     def clickBuyBtn(self,account,passwd,money):
@@ -47,9 +80,9 @@ class productInfo_page(productList_Page.ProductList_Page):
             self.click(self.submitBtn_loc)
 
         else:
-            print('错误在这里')
             self.inputInvest_Money(money)
             self.click(self.submitBtn_loc)
+
     # 查看项目详情 借款人信息 出借记录 1,2,3
     def viewProjectInfo(self,type):
         if type ==1:
@@ -69,11 +102,12 @@ if __name__ == '__main__':
 
     page = productInfo_page('ff')
     page.open(url)
-    # page.getRemain_Money()
+
+
 
     account='13511111105'
     passwd='111111'
-    money=100
+    money=300
     page.clickBuyBtn(account,passwd,money)
     #page.viewProjectInfo(2)
 

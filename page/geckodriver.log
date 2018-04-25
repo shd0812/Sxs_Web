@@ -2223,3 +2223,565 @@ Promise rejected after context unloaded: Message manager disconnected
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1524653917535	geckodriver	INFO	geckodriver 0.20.0
+1524653917546	geckodriver	INFO	Listening on 127.0.0.1:60487
+1524653920575	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.j718sgnvhoIl"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524653921970	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524653925234	Marionette	INFO	Listening on port 60496
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524653926052	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 26920, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.rE4Se2gBkHqc"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654021150	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654024424	Marionette	INFO	Listening on port 60558
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654024980	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 25408, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo1524654052865	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.lDI0GO3CEZIB"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654054840	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654058366	Marionette	INFO	Listening on port 60614
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654059678	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524654089166	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC Time1524654090556	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.ZSdlDSl2DaUx"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654092110	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654095106	Marionette	INFO	Listening on port 60680
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654095848	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 392
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.4xL2VbCIUfYZ"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654195698	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654199748	Marionette	INFO	Listening on port 60745
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654200620	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 24184, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo1524654224882	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.6fg3tz8Qf33I"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654226566	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654229886	Marionette	INFO	Listening on port 60801
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654230398	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 24128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch[Child 24128, Chrome_ChildThrild 25196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1524654245011	geckodriver	INFO	geckodriver 0.20.0
+1524654245023	geckodriver	INFO	Listening on 127.0.0.1:60845
+1524654248069	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.evNViWxtlrXS"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654249384	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654252480	Marionette	INFO	Listening on port 60853
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654253374	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.5.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.5.js, line 556: unreachable code after return statement
+JavaScript error: https://edu.csdn.net/topic/detail/php1, line 53: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.2.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.2.js, line 556: unreachable code after return statement
+[Parent 26388, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 26388, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 26388, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24600, Chrome_ChildThre[Child 24168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2416[Parent 26388, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20112, Chrome_Chil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+refox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.YYREwERw4255"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654584040	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654587242	Marionette	INFO	Listening on port 61140
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654588412	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 28360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/co1524654682475	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.ajb0x4xrlDoK"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654683892	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654686986	Marionette	INFO	Listening on port 64103
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524654687768	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+[Parent 28328, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+cript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+[Child 29416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1524655945402	geckodriver	INFO	geckodriver 0.20.0
+1524655945415	geckodriver	INFO	Listening on 127.0.0.1:49673
+1524655948427	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.Tw8Mzc8Qh19E"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524655949930	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524655953412	Marionette	INFO	Listening on port 49687
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524655954478	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+[Parent 22352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo1524656024052	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.ubM8sFN9mJEQ"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656025496	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656030170	Marionette	INFO	Listening on port 49904
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656030486	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+[Parent 21804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20124[Parent 21804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 27064, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1524656073875	geckodriver	INFO	geckodriver 0.20.0
+1524656073885	geckodriver	INFO	Listening on 127.0.0.1:50062
+1524656076928	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.PW53xM61O60e"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656078332	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656081758	Marionette	INFO	Listening on port 50074
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656082542	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 27784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/co1524656166549	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.vbTZGBeypm1z"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656168154	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656171416	Marionette	INFO	Listening on port 50289
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656171878	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 28376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/co1524656236209	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.6fueBSXIOTDk"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656237630	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656241446	Marionette	INFO	Listening on port 50457
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656242030	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 25976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 25976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27964
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+envrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656372426	Marionette	INFO	Listening on port 50711
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656373242	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+[Parent 29584, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo1524656424043	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.HwYoVwMml98l"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656426400	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656429820	Marionette	INFO	Listening on port 50885
+1524656429866	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+[Parent 30012, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1524656490249	geckodriver	INFO	geckodriver 0.20.0
+1524656490260	geckodriver	INFO	Listening on 127.0.0.1:51073
+1524656493310	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.PhrJMSYlrbYP"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656494760	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656498184	Marionette	INFO	Listening on port 51085
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656499394	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+[Parent 15356, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[
+Child 29996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29996[Parent 15356, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1524656557301	geckodriver	INFO	geckodriver 0.20.0
+1524656557314	geckodriver	INFO	Listening on 127.0.0.1:51267
+1524656560352	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.IF116sV4BPGS"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656561772	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656565184	Marionette	INFO	Listening on port 51280
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656565706	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+[Child 18384, Chrome_ChildThread] WARNING: pipe error:[Parent 28940, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 30640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 30640, *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 26236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1524656599865	geckodriver	INFO	geckodriver 0.20.0
+1524656599877	geckodriver	INFO	Listening on 127.0.0.1:51422
+1524656602954	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.0nLaced1b5XU"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656604864	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656609360	Marionette	INFO	Listening on port 51434
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656610364	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 25548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 25548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 30276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 25548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+h Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656656420	Marionette	INFO	Listening on port 51576
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656657494	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+[Parent 23492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 30412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 304*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1524656799930	geckodriver	INFO	geckodriver 0.20.0
+1524656799940	geckodriver	INFO	Listening on 127.0.0.1:51891
+1524656802968	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.lNFTPtJMGGGH"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656804478	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656807894	Marionette	INFO	Listening on port 51904
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656808582	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+[Parent 26752, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 26752, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27336, Chrome_ChildThread] WAR*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1524656835551	geckodriver	INFO	geckodriver 0.20.0
+1524656835563	geckodriver	INFO	Listening on 127.0.0.1:52036
+1524656838589	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.EYrNyXhjxnYj"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656840128	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656844096	Marionette	INFO	Listening on port 52050
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656844948	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524656919452	geckodriver	INFO	geckodriver 0.20.0
+1524656919462	geckodriver	INFO	Listening on 127.0.0.1:52226
+1524656922473	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.Li42QxvetIwV"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656923894	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656927234	Marionette	INFO	Listening on port 52240
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524656927782	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524657005390	geckodriver	INFO	geckodriver 0.20.0
+1524657005403	geckodriver	INFO	Listening on 127.0.0.1:52451
+1524657008419	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.5UOt2s8w5NKV"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524657009824	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524657013378	Marionette	INFO	Listening on port 52465
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524657014056	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+[Child 28424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1524657030097	geckodriver	INFO	geckodriver 0.20.0
+1524657030106	geckodriver	INFO	Listening on 127.0.0.1:52617
+1524657033119	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.uJ9BOadOPGOx"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524657034526	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524657037636	Marionette	INFO	Listening on port 52629
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1524657038432	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/Sanbiao/details/id/6284.html, line 563: ReferenceError: event is not defined
+[Child 29632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29632, [Child 21112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 28700, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2465*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
