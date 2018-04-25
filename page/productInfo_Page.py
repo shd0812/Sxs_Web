@@ -33,6 +33,8 @@ class productInfo_page(productList_Page.ProductList_Page):
     def getRemain_Money(self):
         money = self.get_text(self.remainMoney_loc)
         money = money[0:len(money) - 3]
+        if ',' in money:
+            money=money.replace(',','')
         return  int(money)
     # 输入投资金额
     def inputInvest_Money(self,money):

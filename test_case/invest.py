@@ -14,6 +14,6 @@ if __name__ == '__main__':
     account='13511111105'
     passwd='111111'
     xinWangPd='111111'
-    money=100
+    money='100'
     invest_SB(dealNo,account,passwd,money,xinWangPd)
 
