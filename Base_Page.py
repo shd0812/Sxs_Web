@@ -110,8 +110,14 @@ class Action(object):
 				"Please enter the correct targeting elements,'id','name','class','link_text','xpath','css'.")
 		return element
 	
+	#元素是否存在
+	def element_IsExit(self,css):
+		element = self.get_element(css)
+		if element:
+			return True
+		else:
+			return  False
 
-	
 	def open(self,url):
 		'''
 		open url.
@@ -406,10 +412,13 @@ class Action(object):
 		original_window = self.driver.current_window_handle
 		el = self.get_element(css)
 		el.click()
+		time.sleep(5)
 		all_handles = self.driver.window_handles
 		for handle in all_handles:
 			if handle != original_window:
 				self.driver.switch_to.window(handle)
+
+
 
 	def get_screenshot(self, file_path):
 		'''Saves a screenshot of the current window to a PNG image file.
@@ -445,8 +454,15 @@ class Action(object):
 if __name__ == '__main__':
 
 	login = Action('ff')
-	login.open('https://pc.shaxiaoseng.com:4433/Product/index.html')
-	login.pick_element("XY18041953439期")
+	login.open('https://pc.shaxiaoseng.com:4433')
+	flag = login.element_IsExit('xpath=>/html/body/div[2]/div/div[2]/div[3]/span/a[1]')
+	print(flag)
+
+	if flag:
+
+		print('存在')
+	else:
+		print('不存在')
 	# print(login.get_title())
 	# #driver.click("link_text=>登录")
 	# operate_file = utils.operate_file('test_data/login.yaml')
