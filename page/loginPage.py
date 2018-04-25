@@ -1,9 +1,7 @@
 import Base_Page
-from selenium import webdriver
-import assert_util
 
 class LoginPage(Base_Page.Action):
-	#global account_loc,passwd_loc,title_loc,eye_loc,loginBtn_loc
+
 	#定位器
 	account_loc= 'id=>tel' #账户位置
 	passwd_loc='id=>password'   # 密码
@@ -30,7 +28,7 @@ class LoginPage(Base_Page.Action):
 		if title == expect_title:
 			pass
 		else:
-			raise '密码或账号错误'
+			raise Exception
 
 
 if __name__ == '__main__':
@@ -43,4 +41,3 @@ if __name__ == '__main__':
 	login.open(url)
 	login.input_account(account)
 	login.input_passwd(passwd)
-	login.click_LoginSubmit('登录')

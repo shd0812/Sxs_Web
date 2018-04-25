@@ -2,10 +2,16 @@ import productInfo_Page
 import assert_util
 # 散标确认购买页
 class sbConfimBuy_page(productInfo_Page.productInfo_page):
+    # 确认支付按钮
     confirmBuyBtn_loc='id=>buy-btn'
+    # 标的详情
     sbInfo_loc='id=>/html/body/div[3]/div/div[2]/h2/i/a/span'
+    # 阅读协议按钮
     agreeBtn_loc='/html/body/div[3]/div/div[2]/div/div[9]/img'
+    # 购买成功后结果页面
+    # 查看出借记录 跳转到散标记录页
     lookBorrowList_loc='class=>btn'
+    # 继续出借按钮
     continueBtn_loc='class=>notes'
     #新网页面元素
     xinWangPassword_loc='id=>password'
@@ -15,7 +21,7 @@ class sbConfimBuy_page(productInfo_Page.productInfo_page):
         super(sbConfimBuy_page, self).__init__(browser)
 
     #点击确认支付按钮  交易密码
-    def click_ConfirmBtn(self,password):
+    def click_ConfirmBuyBtn(self,password):
         #切换到新网页面
         self.open_new_window(self.confirmBuyBtn_loc)
         #输入交易密码
@@ -38,6 +44,6 @@ if __name__ == '__main__':
     page.open(url)
     page.inputInvest_Money(100)
     page.clickBuyBtn()
-    page.click_ConfirmBtn('111111')
+    page.click_ConfirmBuyBtn('111111')
 
 

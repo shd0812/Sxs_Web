@@ -1,15 +1,15 @@
 import loginPage
 
-class home_Page(loginPage.LoginPage):
+class Home_Page(loginPage.LoginPage):
 
     homeLoginBtn_loc='xpath=>/html/body/div[2]/div/div[2]/div[3]/span/a[1]'
     registBtn_loc ='xpath=>/html/body/div[2]/div/div[2]/div[3]/span/a[2]'
 
 
     def __init__(self,browser):
-        super(home_Page, self).__init__(browser)
+        super(Home_Page, self).__init__(browser)
 
-    #action
+    #action 首页登录操作
     def click_HomeLoginBtn(self,account,password):
         if self.element_IsExit(self.homeLoginBtn_loc):
             self.click(self.homeLoginBtn_loc)
@@ -21,6 +21,6 @@ class home_Page(loginPage.LoginPage):
 
 
 if __name__ == '__main__':
-    home = home_Page('ff')
+    home = Home_Page('ff')
     home.open('https://pc.shaxiaoseng.com:4433')
     home.click_HomeLoginBtn('13511111105','111111')
