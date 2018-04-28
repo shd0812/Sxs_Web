@@ -1,5 +1,5 @@
 import  productList_Page
-
+from selenium import webdriver
 # 散标详情页
 class productInfo_page(productList_Page.ProductList_Page):
     #定位器  # 剩余金额
@@ -26,8 +26,8 @@ class productInfo_page(productList_Page.ProductList_Page):
 
     # 检查字段
     expect_title='四方化缘详情'
-    def __init__(self, browser):
-        super(productInfo_page, self).__init__(browser)
+    def __init__(self, driver):
+        super(productInfo_page, self).__init__(driver)
 
     #获取剩余金额
     def getRemain_Money(self):
@@ -101,8 +101,8 @@ if __name__ == '__main__':
     url = 'https://pc.shaxiaoseng.com:4433/Sanbiao/details/id/6284.html'
     #url='https://www.shaxiaoseng.com/Sanbiao/details/id/3691.html'
 
-
-    page = productInfo_page('ff')
+    driver = webdriver.Firefox()
+    page = productInfo_page(driver)
     page.open(url)
 
 

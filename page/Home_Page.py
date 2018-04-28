@@ -1,4 +1,5 @@
 import loginPage
+from selenium import webdriver
 
 class Home_Page(loginPage.LoginPage):
 
@@ -6,8 +7,8 @@ class Home_Page(loginPage.LoginPage):
     registBtn_loc ='xpath=>/html/body/div[2]/div/div[2]/div[3]/span/a[2]'
 
 
-    def __init__(self,browser):
-        super(Home_Page, self).__init__(browser)
+    def __init__(self,driver):
+        super(Home_Page, self).__init__(driver)
 
     #action 首页登录操作
     def click_HomeLoginBtn(self,account,password):
@@ -21,6 +22,7 @@ class Home_Page(loginPage.LoginPage):
 
 
 if __name__ == '__main__':
-    home = Home_Page('ff')
+    driver = webdriver.Firefox()
+    home = Home_Page(driver)
     home.open('https://pc.shaxiaoseng.com:4433')
     home.click_HomeLoginBtn('13511111105','111111')

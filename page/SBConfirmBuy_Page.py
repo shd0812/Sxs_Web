@@ -1,5 +1,6 @@
 import productInfo_Page
 import assert_util
+from selenium import webdriver
 # 散标确认购买页
 class sbConfimBuy_page(productInfo_Page.productInfo_page):
     # 确认支付按钮
@@ -17,8 +18,8 @@ class sbConfimBuy_page(productInfo_Page.productInfo_page):
     xinWangPassword_loc='id=>password'
     xinWangBtn_loc='id=>nextButton'
 
-    def __init__(self, browser):
-        super(sbConfimBuy_page, self).__init__(browser)
+    def __init__(self, driver):
+        super(sbConfimBuy_page, self).__init__(driver)
 
     #点击确认支付按钮  交易密码
     def click_ConfirmBuyBtn(self,password):
@@ -40,10 +41,10 @@ class sbConfimBuy_page(productInfo_Page.productInfo_page):
         self.click(self.borrowerInfo_loc)
 if __name__ == '__main__':
     url='https://pc.shaxiaoseng.com:4433/Sanbiao/details/id/6197.html'
-    page = sbConfimBuy_page('ff')
+    driver =webdriver.Firefox()
+    page = sbConfimBuy_page(driver)
     page.open(url)
-    page.inputInvest_Money(100)
-    page.clickBuyBtn()
+    page.clickBuyBtn('13511111105','111111',100)
     page.click_ConfirmBuyBtn('111111')
 
 

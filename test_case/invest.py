@@ -1,7 +1,9 @@
 import SBConfirmBuy_Page
+from selenium import webdriver
 
 def invest_SB(dealNo,account,passwd,money,xinWangPasswd):
-    page = SBConfirmBuy_Page.sbConfimBuy_page('ff')
+    driver = webdriver.Firefox()
+    page = SBConfirmBuy_Page.sbConfimBuy_page(driver)
     page.open('https://pc.shaxiaoseng.com:4433/Product/index.html')
     dealNo = dealNo +'期'
     #找到所投资的标的，并进入标的详情页

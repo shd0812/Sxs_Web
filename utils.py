@@ -4,6 +4,7 @@ import pymysql
 from yaml import  load
 from configparser import ConfigParser
 import os
+import re
 
 # 操作文件类
 class operate_file():
@@ -23,8 +24,21 @@ class operate_file():
 			dd_config.read(config_path)
 			return	dd_config
 
+# 从字符中提取数字
+def extractNum(str):
+	'''
+	str='四方化缘总额：100.00 元'  result_str=100.00
 
-
+	\d+匹配1次或者多次数字，注意这里不要写成*，
+	因为即便是小数，小数点之前也得有一个数字；\.?这个是匹配小数点的，
+	可能有，也可能没有；
+	\d*这个是匹配小数点之后的数字的，所以是0个或者多个
+	'''
+	re_list=re.findall(r"\d+\.?\d*",str)
+	result_str=''
+	for str in re_list:
+		result_str+=str
+	return result_str
 
 
 class shd_time():
@@ -102,12 +116,13 @@ if __name__ == '__main__':
 	# mobile = '13801000001'
 	# sql = "SELECT verify FROM vault_user_mobile_verify WHERE mobile = '%s'" % mobile
 	# print(my_db.get_data(sql))
-	operate_file = operate_file('test_data/login.yaml')
-	data=operate_file.open()
-	print(ob_element(data,1))
-	print(data['test_element'][0]['test_control'],data)
+	# operate_file = operate_file('test_data/login.yaml')
+	# data=operate_file.open()
+	# print(ob_element(data,1))
+	# print(data['test_element'][0]['test_control'],data)
 	
-
+	str='四方化缘总额：100.00 元'
+	print(extractNum(str))
 
 
 	# sxs_time = shd_time()

@@ -19,31 +19,32 @@ class Action(object):
 
 	original_window = None
 
-	def __init__(self, browser):
+	def __init__(self, driver):
 		'''
 		Run class initialization method, the default is proper
 		to drive the Firefox browser. Of course, you can also
 		pass parameter for other browser, Chrome browser for the "Chrome",
 		the Internet Explorer browser for "internet explorer" or "ie".
 		'''
+		self.driver=driver
 
-		if browser == "firefox" or browser == "ff":
-			self.driver = webdriver.Firefox()
-		elif browser == "chrome":
-			self.driver = webdriver.Chrome()
-		elif browser == "internet explorer" or browser == "ie":
-			self.driver = webdriver.Ie()
-		elif browser == "opera":
-			self.driver = webdriver.Opera()
-		elif browser == "chrome_headless":
-			chrome_options = Options()
-			chrome_options.add_argument('--headless')
-			self.driver = webdriver.Chrome(chrome_options=chrome_options)
-		elif browser == 'edge':
-			self.driver = webdriver.Edge()
-		else:
-			raise NameError(
-				"Not found %s browser,You can enter 'ie', 'ff', 'opera', 'edge', 'chrome' or 'chrome_headless'." % browser)
+		# if browser == "firefox" or browser == "ff":
+		# 	self.driver = webdriver.Firefox()
+		# elif browser == "chrome":
+		# 	self.driver = webdriver.Chrome()
+		# elif browser == "internet explorer" or browser == "ie":
+		# 	self.driver = webdriver.Ie()
+		# elif browser == "opera":
+		# 	self.driver = webdriver.Opera()
+		# elif browser == "chrome_headless":
+		# 	chrome_options = Options()
+		# 	chrome_options.add_argument('--headless')
+		# 	self.driver = webdriver.Chrome(chrome_options=chrome_options)
+		# elif browser == 'edge':
+		# 	self.driver = webdriver.Edge()
+		# else:
+		# 	raise NameError(
+		# 		"Not found %s browser,You can enter 'ie', 'ff', 'opera', 'edge', 'chrome' or 'chrome_headless'." % browser)
 
 	def element_wait(self, by, value, secs=5):
 		'''
@@ -176,6 +177,14 @@ class Action(object):
 		'''
 		el = self.get_element(css)
 		el.click()
+	def jump_page(self,css,expect_title):
+		el = self.get_element(css)
+		el.click()
+		if expect_title ==self.get_title():
+			pass
+		else:
+			raise NoSuchElementException
+
 
 	def right_click(self, css):
 		'''
@@ -316,6 +325,7 @@ class Action(object):
 		#产品列表专用
 	def pick_element(self,dealNo):
 		dlList = self.get_element("stag=>dl")
+		dealNo = dealNo+'期'
 		for element in dlList:
 			try: 
 				productNumberSpan = element.find_element_by_css_selector("dt span")
@@ -326,8 +336,7 @@ class Action(object):
 					print('请检查标的号是否正确')
 			except  :
 				raise Exception
-			
-	
+
 	def get_url(self):
 		'''
 		Get the URL address of the current page.
@@ -451,18 +460,14 @@ class Action(object):
 		Select(el).select_by_value(value)
 
 
+
+
 if __name__ == '__main__':
+	driver = webdriver.Firefox()
+	login = Action(driver)
+	login.open('https://pc.shaxiaoseng.com:4433/Product/index.html')
 
-	login = Action('ff')
-	login.open('https://pc.shaxiaoseng.com:4433')
-	flag = login.element_IsExit('xpath=>/html/body/div[2]/div/div[2]/div[3]/span/a[1]')
-	print(flag)
 
-	if flag:
-
-		print('存在')
-	else:
-		print('不存在')
 	# print(login.get_title())
 	# #driver.click("link_text=>登录")
 	# operate_file = utils.operate_file('test_data/login.yaml')

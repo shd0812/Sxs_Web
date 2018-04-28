@@ -1,31 +1,42 @@
 import SBConfirmBuy_Page
+import loginPage
 import unittest
+from selenium import webdriver
 import HTMLTestRunner
 
 class TestOne(unittest.TestCase):
     def setUp(self):
-        self.page = SBConfirmBuy_Page.sbConfimBuy_page('ff')
+        self.driver=webdriver.Firefox()
+
 
 
     def test_Login_1(self):
-        self.page.open('https://pc.shaxiaoseng.com:4433')
-        self.page.click_HomeLoginBtn('13511111105','111111')
+        page = loginPage.LoginPage(self.driver)
+        page.open('https://pc.shaxiaoseng.com:4433/User/login.html')
+        print(page.get_title())
+        account = '13521137793'
+        passwd = '1111112'
+        page.input_account(account)
+        page.input_passwd(passwd)
+        page.click_LoginSubmit('沙小僧-取金路上 1小沙为您保驾护航')
+
 
 
     def test_Tender(self):
-        self.page.open('https://pc.shaxiaoseng.com:4433/Product/index.html')
+        page = SBConfirmBuy_Page.sbConfimBuy_page(self.driver)
+        page.open('https://pc.shaxiaoseng.com:4433/Product/index.html')
         #self.page.click_HomeLoginBtn('13511111105','111111')
-        self.page.pick_element('CY18041397151期')
+        page.pick_element('FY180427926163')
         #self.page.click
 
     def tearDown(self):
-        self.page.close()
+        self.driver.close()
 
 if __name__ == "__main__":
     #定义一个测试容器
     test = unittest.TestSuite()
     #将测试用例，加入到测试容器中
-    test.addTest(TestOne("test_Tender"))
+    test.addTest(TestOne("test_Login_1"))
     # 3、实例化runner类
     runner = unittest.TextTestRunner()
     runner.run(test)
