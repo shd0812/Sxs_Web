@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7570c24-c4bd-4b2f-b9ff-a446d9dc2195" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/my_pages/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/my_pages/geckodriver.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/my_pages/myAssert_page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Sxs_Web.iml" afterPath="$PROJECT_DIR$/.idea/Sxs_Web.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/my_pages/recharge_page.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/my_pages/withdraw_page.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base_Page.py" afterPath="$PROJECT_DIR$/Base_Page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="$PROJECT_DIR$/geckodriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/Home_Page.py" afterPath="$PROJECT_DIR$/page/Home_Page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/SBConfirmBuy_Page.py" afterPath="$PROJECT_DIR$/page/SBConfirmBuy_Page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/geckodriver.log" afterPath="$PROJECT_DIR$/page/geckodriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/loginPage.py" afterPath="$PROJECT_DIR$/page/loginPage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/productInfo_Page.py" afterPath="$PROJECT_DIR$/page/productInfo_Page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/my_pages/geckodriver.log" afterPath="$PROJECT_DIR$/page/my_pages/geckodriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/my_pages/myAssert_page.py" afterPath="$PROJECT_DIR$/page/my_pages/myAssert_page.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/geckodriver.log" afterPath="$PROJECT_DIR$/test_case/geckodriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/invest.py" afterPath="$PROJECT_DIR$/test_case/invest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/test1.py" afterPath="$PROJECT_DIR$/test_case/test1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +28,7 @@
     <SUITE FILE_PATH="coverage/Sxs_Web$loginPage__1_.coverage" NAME="loginPage (1) Coverage Results" MODIFIED="1524394827084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
     <SUITE FILE_PATH="coverage/Sxs_Web$assert_util.coverage" NAME="assert_util Coverage Results" MODIFIED="1524319763678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Sxs_Web$dd_utils.coverage" NAME="dd_utils Coverage Results" MODIFIED="1520757417837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Sxs_Web$myAssert_page.coverage" NAME="myAssert_page Coverage Results" MODIFIED="1524879730769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page/my_pages" />
+    <SUITE FILE_PATH="coverage/Sxs_Web$myAssert_page.coverage" NAME="myAssert_page Coverage Results" MODIFIED="1524887823566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page/my_pages" />
     <SUITE FILE_PATH="coverage/Sxs_Web$Unittests_for_test1_TestOne_test_Tender.coverage" NAME="Unittests for test1.TestOne.test_Tender Coverage Results" MODIFIED="1524881353391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Sxs_Web$test_login1.coverage" NAME="test_login1 Coverage Results" MODIFIED="1521121652366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Sxs_Web$base_element.coverage" NAME="base_element Coverage Results" MODIFIED="1520757472262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -46,7 +37,7 @@
     <SUITE FILE_PATH="coverage/Sxs_Web$loginPage.coverage" NAME="loginPage Coverage Results" MODIFIED="1524881467286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
     <SUITE FILE_PATH="coverage/Sxs_Web$Home_Page.coverage" NAME="Home_Page Coverage Results" MODIFIED="1524880082204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
     <SUITE FILE_PATH="coverage/Sxs_Web$productList_Page__1_.coverage" NAME="productList_Page (1) Coverage Results" MODIFIED="1524707472972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
-    <SUITE FILE_PATH="coverage/Sxs_Web$Unittests_for_test1_TestOne_test_Login_1.coverage" NAME="Unittests for test1.TestOne.test_Login_1 Coverage Results" MODIFIED="1524881655680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/Sxs_Web$Unittests_for_test1_TestOne_test_Login_1.coverage" NAME="Unittests for test1.TestOne.test_Login_1 Coverage Results" MODIFIED="1524887306763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Sxs_Web$Unittest_LoginTest_test_case1.coverage" NAME="Unittest LoginTest.test_case1 Coverage Results" MODIFIED="1521123231561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Sxs_Web$invest.coverage" NAME="invest Coverage Results" MODIFIED="1524706923593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Sxs_Web$Unittests_for_test2_TestDiv.coverage" NAME="Unittests for test2.TestDiv Coverage Results" MODIFIED="1524638144810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
@@ -106,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="384">
+              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -121,8 +112,8 @@
       <file leaf-file-name="myAssert_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/my_pages/myAssert_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="50" />
+            <state relative-caret-position="343">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -130,38 +121,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="invest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/invest.py">
+      <file leaf-file-name="recharge_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/my_pages/recharge_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="48">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="11" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.py">
+      <file leaf-file-name="withdraw_page.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page/my_pages/withdraw_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-              <folding>
-                <element signature="e#15#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginPage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/loginPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="312">
+              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -210,15 +185,17 @@
         <option value="$PROJECT_DIR$/test_case/test2.py" />
         <option value="$PROJECT_DIR$/page/productList_Page.py" />
         <option value="$PROJECT_DIR$/utils.py" />
-        <option value="$PROJECT_DIR$/page/my_pages/recharge.py" />
         <option value="$PROJECT_DIR$/page/Home_Page.py" />
         <option value="$PROJECT_DIR$/page/loginPage.py" />
         <option value="$PROJECT_DIR$/page/productInfo_Page.py" />
         <option value="$PROJECT_DIR$/page/SBConfirmBuy_Page.py" />
-        <option value="$PROJECT_DIR$/page/my_pages/myAssert_page.py" />
         <option value="$PROJECT_DIR$/test_case/invest.py" />
         <option value="$PROJECT_DIR$/Base_Page.py" />
         <option value="$PROJECT_DIR$/test_case/test1.py" />
+        <option value="$PROJECT_DIR$/page/my_pages/recharge.py" />
+        <option value="$PROJECT_DIR$/page/my_pages/myAssert_page.py" />
+        <option value="$PROJECT_DIR$/page/my_pages/recharge_page.py" />
+        <option value="$PROJECT_DIR$/page/my_pages/withdraw_page.py" />
       </list>
     </option>
   </component>
@@ -308,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test1.TestOne.test_Login_1">
+  <component name="RunManager" selected="Python.myAssert_page">
     <configuration name="Unittests for test1.TestOne" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -585,20 +562,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="productInfo_Page" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myAssert_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page/my_pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Sxs_Web" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/productInfo_Page.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/my_pages/myAssert_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -623,19 +600,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.productList_Page" />
-      <item index="1" class="java.lang.String" itemvalue="Python.productInfo_Page" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test1.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python.loginPage" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test1.TestOne.test_Login_1" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests for test1.TestOne" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test1.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.loginPage" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test1.TestOne.test_Login_1" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test1.TestOne" />
+      <item index="5" class="java.lang.String" itemvalue="Python.myAssert_page" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test1.TestOne.test_Login_1" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test1.TestOne" />
-        <item index="2" class="java.lang.String" itemvalue="Python.loginPage" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test1.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.productInfo_Page" />
+        <item index="0" class="java.lang.String" itemvalue="Python.myAssert_page" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test1.TestOne.test_Login_1" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test1.TestOne" />
+        <item index="3" class="java.lang.String" itemvalue="Python.loginPage" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test1.py" />
       </list>
     </recent_temporary>
   </component>
@@ -709,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524658309058</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修复基类初始化方法">
+      <created>1524881771129</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1524881771129</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -725,17 +709,17 @@
     <history-entry file="Unittests_for_test1_TestOne_test_Login_1 - 2018.04.28 at 10h 14m 30s.xml">
       <configuration name="Unittests for test1.TestOne.test_Login_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test1_TestOne_test_Tender - 2018.04.28 at 10h 06m 25s.xml">
-      <configuration name="Unittests for test1.TestOne.test_Tender" configurationId="tests" />
+    <history-entry file="Unittests_for_test1_TestOne_test_Login_1 - 2018.04.28 at 11h 33m 07s.xml">
+      <configuration name="Unittests for test1.TestOne.test_Login_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test1_TestOne_test_Tender - 2018.04.28 at 10h 07m 23s.xml">
-      <configuration name="Unittests for test1.TestOne.test_Tender" configurationId="tests" />
+    <history-entry file="Unittests_for_test1_TestOne_test_Login_1 - 2018.04.28 at 11h 33m 45s.xml">
+      <configuration name="Unittests for test1.TestOne.test_Login_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test1_TestOne_test_Login_1 - 2018.04.28 at 11h 48m 41s.xml">
+      <configuration name="Unittests for test1.TestOne.test_Login_1" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_test1_TestOne_test_Tender - 2018.04.28 at 10h 09m 28s.xml">
       <configuration name="Unittests for test1.TestOne.test_Tender" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2018.04.28 at 10h 08m 07s.xml">
-      <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test1_py - 2018.04.28 at 10h 08m 54s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
@@ -751,7 +735,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3057325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20063694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14270833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -782,7 +766,8 @@
     <MESSAGE value="把所有投资流程整合" />
     <MESSAGE value="增加投资时的断言" />
     <MESSAGE value="修复断言时的一些bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复断言时的一些bug" />
+    <MESSAGE value="修复基类初始化方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复基类初始化方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -791,24 +776,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Base_Page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="47" />
-          <folding>
-            <element signature="e#15#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/productList_Page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/loginPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -1045,14 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/my_pages/recharge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/SBConfirmBuy_Page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -1078,7 +1037,7 @@
         <state relative-caret-position="288">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1103,22 +1062,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/my_pages/myAssert_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding>
-            <element signature="e#15#26#0" expanded="true" />
+            <element signature="e#15#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1135,11 +1084,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="384">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/my_pages/recharge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/my_pages/myAssert_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/my_pages/recharge_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="11" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/my_pages/withdraw_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

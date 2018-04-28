@@ -26,11 +26,7 @@ class myAssert_page(Home_Page.Home_Page):
     rechargeBtn_loc='class=>recharge'#充值按钮
     withdrawBtn_loc='class=>withdraw'#提现按钮
 
-    # 充值页面
-    quickRecharge_loc='xpath=>/html/body/div[4]/div[1]' #快捷充值按钮
-    netRecharge_loc='xpath=>/html/body/div[4]/div[2]' #网银充值
-    rechargeMoney_loc='id=>money' # 充值金额
-    immediatelyRechargeBtn_loc='class=>cz-btn1' #立即充值按钮
+
 
     # 提现页面
 
@@ -51,12 +47,10 @@ class myAssert_page(Home_Page.Home_Page):
 
     def myAssertClick_RechargeBtn(self):
         self.jump_page(self.rechargeBtn_loc,'充值')
-        self.open_new_window(self.quickRecharge_loc)
+        #self.open_new_window(self.quickRecharge_loc)
         #page = recharge.reCharge_Page('ff')
 
-    #充值页面操作
-    def input_RechargeMoney(self,money):
-        self.input(self.rechargeMoney_loc,money)
+
 
 
     def myAssertClick_WithdrawBtn(self):

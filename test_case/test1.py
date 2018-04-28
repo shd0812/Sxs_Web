@@ -18,7 +18,7 @@ class TestOne(unittest.TestCase):
         passwd = '1111112'
         page.input_account(account)
         page.input_passwd(passwd)
-        page.click_LoginSubmit('沙小僧-取金路上 1小沙为您保驾护航')
+        page.click_LoginSubmit('沙小僧-取金路上 小沙为您保驾护航')
 
 
 
