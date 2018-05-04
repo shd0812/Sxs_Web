@@ -326,6 +326,7 @@ class Action(object):
 	def pick_element(self,dealNo):
 		dlList = self.get_element("stag=>dl")
 		dealNo = dealNo+'期'
+		print(dealNo)
 		for element in dlList:
 			try: 
 				productNumberSpan = element.find_element_by_css_selector("dt span")
@@ -362,6 +363,7 @@ class Action(object):
 		Usage:
 		driver.get_window_img()
 		'''
+
 		self.driver.get_screenshot_as_file(file_path)
 
 	def wait(self, secs):

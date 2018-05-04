@@ -1,7 +1,7 @@
-import  productList_Page
+from  page.productList_Page import  ProductList_Page
 from selenium import webdriver
 # 散标详情页
-class productInfo_page(productList_Page.ProductList_Page):
+class productInfo_page(ProductList_Page):
     #定位器  # 剩余金额
     remainMoney_loc='xpath=>/html/body/div[3]/div[2]/div[2]/div/div/p[1]/span'
     #右上角登录 用来判断是否是登录状态

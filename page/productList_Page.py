@@ -1,6 +1,6 @@
-import Home_Page
+from page.Home_Page import  Home_Page
 
-class ProductList_Page(Home_Page.Home_Page):
+class ProductList_Page(Home_Page):
 		
 		def __init__(self, browser):
 			super(ProductList_Page, self).__init__(browser)

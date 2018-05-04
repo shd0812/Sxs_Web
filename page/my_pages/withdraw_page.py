@@ -1,6 +1,6 @@
-import Home_Page
+from page.Home_Page import Home_Page
 
-class withdraw_Page(Home_Page.Home_Page):
+class withdraw_Page(Home_Page):
     # 提现页面
     avaliableMoney_loc='xpath=>/html/body/div[3]/div/span' #可用余额
     withdrawList_loc='xpath=>/html/body/div[4]/a' #提现记录

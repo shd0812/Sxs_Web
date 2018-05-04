@@ -1,8 +1,8 @@
-import Home_Page
+from page.Home_Page import  Home_Page
 import utils
 from selenium import webdriver
 
-class myAssert_page(Home_Page.Home_Page):
+class myAssert_page(Home_Page):
     #元素定位
      #左侧导航
     deposit_loc=''#存管按钮

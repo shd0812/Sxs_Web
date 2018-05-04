@@ -1,7 +1,7 @@
-import loginPage
+from page.loginPage import  LoginPage
 from selenium import webdriver
 
-class Home_Page(loginPage.LoginPage):
+class Home_Page(LoginPage):
 
     homeLoginBtn_loc='xpath=>/html/body/div[2]/div/div[2]/div[3]/span/a[1]'
     registBtn_loc ='xpath=>/html/body/div[2]/div/div[2]/div[3]/span/a[2]'

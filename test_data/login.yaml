@@ -1,12 +1,19 @@
-test_valite:
-  沙小僧
-test_element:
--
-  test_name: 账号
-  test_control: id=>tel
--
-  test_name: 密码
-  test_control: id=>password
--
-  test_name: 登录
-  test_control: id=>login
+testinfo:
+    - id: test001
+      title: 登录
+      info: 打开testerhome
+testcase:
+    - element_info: id=>tel
+      msg: 13511111105
+      info: 输入用户名
+    - element_info: id=>password
+      msg: 111111
+      info: 输入密码
+    - element_info: id=>login
+      info: 点击登录
+
+check:
+    - element_info: //ul[@class='dropdown-menu']/li/a[contains(text(),'lose')]
+      find_type: xpath
+      check: default_check(默认可以不传，就是简单的查找页面元素)
+      info: 查找用户名成功

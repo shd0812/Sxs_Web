@@ -3313,3 +3313,37 @@ JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: Referen
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1525404105859	geckodriver	INFO	geckodriver 0.20.0
+1525404105889	geckodriver	INFO	Listening on 127.0.0.1:53245
+1525404108873	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.z49iwMz4Fu2j"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525404110562	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525404114254	Marionette	INFO	Listening on port 53255
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525404115120	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html, line 563: ReferenceError: event is not defined
+[Child 4844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

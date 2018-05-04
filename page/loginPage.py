@@ -1,7 +1,11 @@
-import Base_Page
+from base.Base_Page import Action
+from selenium import webdriver
 from selenium import webdriver
 
-class LoginPage(Base_Page.Action):
+from base import Base_Page
+
+
+class LoginPage(Action):
 
 	#定位器
 	account_loc= 'id=>tel' #账户位置

@@ -1,5 +1,5 @@
-import SBConfirmBuy_Page
-import loginPage
+from page.SBConfirmBuy_Page import sbConfimBuy_page
+from page.loginPage import LoginPage
 import unittest
 from selenium import webdriver
 import HTMLTestRunner
@@ -11,7 +11,7 @@ class TestOne(unittest.TestCase):
 
 
     def test_Login_1(self):
-        page = loginPage.LoginPage(self.driver)
+        page = LoginPage(self.driver)
         page.open('https://pc.shaxiaoseng.com:4433/User/login.html')
         print(page.get_title())
         account = '13521137793'
@@ -23,7 +23,7 @@ class TestOne(unittest.TestCase):
 
 
     def test_Tender(self):
-        page = SBConfirmBuy_Page.sbConfimBuy_page(self.driver)
+        page = sbConfimBuy_page(self.driver)
         page.open('https://pc.shaxiaoseng.com:4433/Product/index.html')
         #self.page.click_HomeLoginBtn('13511111105','111111')
         page.pick_element('FY180427926163')

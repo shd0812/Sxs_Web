@@ -1,8 +1,8 @@
-import productInfo_Page
+from page.productInfo_Page import productInfo_page
 import assert_util
 from selenium import webdriver
 # 散标确认购买页
-class sbConfimBuy_page(productInfo_Page.productInfo_page):
+class sbConfimBuy_page(productInfo_page):
     # 确认支付按钮
     confirmBuyBtn_loc='id=>buy-btn'
     # 标的详情
