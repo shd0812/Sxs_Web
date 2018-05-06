@@ -63,7 +63,7 @@ class operation_Element(Action):
 
 
 if __name__ =='__main__':
-    result=getTestData('D:/my_python/Sxs_Web/test_data/invest.yaml')
+    result=getTestData('D:/my_python/Sxs_Web/test_data/recharge/recharge.yaml')
     test_case = result[1]
     test_info=result[0]
     check = result[2]

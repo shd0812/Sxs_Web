@@ -423,7 +423,7 @@ class Action(object):
 		original_window = self.driver.current_window_handle
 		el = self.get_element(css)
 		el.click()
-		time.sleep(5)
+		time.sleep(10)
 		all_handles = self.driver.window_handles
 		for handle in all_handles:
 			if handle != original_window:

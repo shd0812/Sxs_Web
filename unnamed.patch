@@ -1,0 +1,710 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1525602871000)
++++ .idea/workspace.xml	(revision )
+@@ -2,15 +2,12 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="b7570c24-c4bd-4b2f-b9ff-a446d9dc2195" name="Default" comment="">
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base/geckodriver.log" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Sxs_Web.iml" afterPath="$PROJECT_DIR$/.idea/Sxs_Web.iml" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/Base_Operation.py" afterPath="$PROJECT_DIR$/base/Base_Operation.py" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/geckodriver.log" afterPath="$PROJECT_DIR$/base/geckodriver.log" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/geckodriver.log" afterPath="$PROJECT_DIR$/test_case/geckodriver.log" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/test1.py" afterPath="$PROJECT_DIR$/test_case/test1.py" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_data/invest.yaml" afterPath="$PROJECT_DIR$/test_data/invest.yaml" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_data/login.yaml" afterPath="$PROJECT_DIR$/test_data/login.yaml" />
+     </list>
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+@@ -47,7 +44,7 @@
+     <SUITE FILE_PATH="coverage/Sxs_Web$Base_Operation__1_.coverage" NAME="Base_Operation (1) Coverage Results" MODIFIED="1525602768160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+     <SUITE FILE_PATH="coverage/Sxs_Web$Base_Statists.coverage" NAME="Base_Statists Coverage Results" MODIFIED="1525397108764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+     <SUITE FILE_PATH="coverage/Sxs_Web$Base_Operation.coverage" NAME="Base_Operation Coverage Results" MODIFIED="1525343072244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-    <SUITE FILE_PATH="coverage/Sxs_Web$Unittests_in_TestOne.coverage" NAME="Unittests in TestOne Coverage Results" MODIFIED="1525570674469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
++    <SUITE FILE_PATH="coverage/Sxs_Web$Unittests_in_TestOne.coverage" NAME="Unittests in TestOne Coverage Results" MODIFIED="1525608850738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+     <SUITE FILE_PATH="coverage/Sxs_Web$webdriver.coverage" NAME="webdriver Coverage Results" MODIFIED="1524620850293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Download/Python3/Lib/site-packages/selenium/webdriver/remote" />
+     <SUITE FILE_PATH="coverage/Sxs_Web$utils.coverage" NAME="utils Coverage Results" MODIFIED="1524823876607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/Sxs_Web$Unittests_in_test1_py.coverage" NAME="Unittests in test1.py Coverage Results" MODIFIED="1524881425815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+@@ -82,11 +79,11 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="Base_Operation.py" pinned="false" current-in-tab="true">
++      <file leaf-file-name="Base_Operation.py" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/base/Base_Operation.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="225">
+-              <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
++            <state relative-caret-position="740">
++              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+               <folding>
+                 <element signature="e#0#33#0" expanded="true" />
+               </folding>
+@@ -94,23 +91,11 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/utils.py">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="125">
+-              <caret line="14" column="77" lean-forward="false" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+-              <folding>
+-                <element signature="e#15#26#0" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
++      <file leaf-file-name="test1.py" pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/test_case/test1.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="100">
+-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
++            <state relative-caret-position="275">
++              <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+               <folding>
+                 <element signature="e#0#51#0" expanded="true" />
+               </folding>
+@@ -121,8 +106,8 @@
+       <file leaf-file-name="login.yaml" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/test_data/login.yaml">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="175">
+-              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
++            <state relative-caret-position="75">
++              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+               <folding />
+             </state>
+           </provider>
+@@ -131,7 +116,7 @@
+       <file leaf-file-name="Base_Log.py" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/base/Base_Log.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="275">
++            <state relative-caret-position="315">
+               <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="18" />
+               <folding>
+                 <element signature="e#0#14#0" expanded="true" />
+@@ -174,10 +159,6 @@
+   <component name="IdeDocumentHistory">
+     <option name="CHANGED_PATHS">
+       <list>
+-        <option value="$PROJECT_DIR$/test_case/test_login1.py" />
+-        <option value="$PROJECT_DIR$/111.py" />
+-        <option value="$PROJECT_DIR$/loginPage.py" />
+-        <option value="$PROJECT_DIR$/productList_Page.py" />
+         <option value="$PROJECT_DIR$/test_case/tests.py" />
+         <option value="$PROJECT_DIR$/assert_util.py" />
+         <option value="$PROJECT_DIR$/test_case/test2.py" />
+@@ -213,7 +194,6 @@
+         <option value="$PROJECT_DIR$/log/fireFox20180506094543/outPut.log" />
+         <option value="$PROJECT_DIR$/log/fireFox20180506094908/outPut.log" />
+         <option value="$PROJECT_DIR$/log/fireFox20180506100227/outPut.log" />
+-        <option value="$PROJECT_DIR$/test_case/test1.py" />
+         <option value="$PROJECT_DIR$/log/fireFox20180506100541/outPut.log" />
+         <option value="$PROJECT_DIR$/log/fireFox20180506103803/outPut.log" />
+         <option value="$PROJECT_DIR$/log/fireFox20180506171154/outPut.log" />
+@@ -222,9 +202,14 @@
+         <option value="$PROJECT_DIR$/test_data/data_Util.py" />
+         <option value="$PROJECT_DIR$/utils.py" />
+         <option value="$PROJECT_DIR$/test_data/invest.yaml" />
++        <option value="$PROJECT_DIR$/log/fireFox20180506183249/outPut.log" />
++        <option value="$PROJECT_DIR$/log/fireFox20180506194207/outPut.log" />
+         <option value="$PROJECT_DIR$/test_data/login.yaml" />
++        <option value="$PROJECT_DIR$/log/fireFox20180506194404/outPut.log" />
++        <option value="$PROJECT_DIR$/log/fireFox20180506194710/outPut.log" />
++        <option value="$PROJECT_DIR$/log/fireFox20180506201103/outPut.log" />
+         <option value="$PROJECT_DIR$/base/Base_Operation.py" />
+-        <option value="$PROJECT_DIR$/log/fireFox20180506183249/outPut.log" />
++        <option value="$PROJECT_DIR$/test_case/test1.py" />
+       </list>
+     </option>
+   </component>
+@@ -342,7 +327,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="RunManager" selected="Python.Base_Operation (1)">
++  <component name="RunManager" selected="Python tests.Unittests in TestOne">
+     <configuration default="false" name="page" type="PythonConfigurationType" factoryName="Python" temporary="true">
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -709,11 +694,11 @@
+     </list>
+     <recent_temporary>
+       <list size="5">
+-        <item index="0" class="java.lang.String" itemvalue="Python.data_Util" />
+-        <item index="1" class="java.lang.String" itemvalue="Python.page" />
+-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in TestOne (2)" />
+-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in TestOne (1)" />
+-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestOne" />
++        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in TestOne" />
++        <item index="1" class="java.lang.String" itemvalue="Python.data_Util" />
++        <item index="2" class="java.lang.String" itemvalue="Python.page" />
++        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in TestOne (2)" />
++        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestOne (1)" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -801,27 +786,34 @@
+       <option name="project" value="LOCAL" />
+       <updated>1524911023919</updated>
+     </task>
+-    <option name="localTasksCounter" value="11" />
++    <task id="LOCAL-00011" summary="优化页面">
++      <created>1525602872279</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1525602872279</updated>
++    </task>
++    <option name="localTasksCounter" value="12" />
+     <servers />
+   </component>
+   <component name="TestHistory">
+-    <history-entry file="Unittests_for_test1_TestOne_test_Login_1 - 2018.04.28 at 11h 33m 45s.xml">
+-      <configuration name="Unittests for test1.TestOne.test_Login_1" configurationId="tests" />
++    <history-entry file="Unittests_in_TestOne - 2018.05.06 at 19h 42m 56s.xml">
++      <configuration name="Unittests in TestOne" configurationId="tests" />
+     </history-entry>
+-    <history-entry file="Unittests_for_test1_TestOne_test_Login_1 - 2018.04.28 at 11h 48m 41s.xml">
+-      <configuration name="Unittests for test1.TestOne.test_Login_1" configurationId="tests" />
++    <history-entry file="Unittests_in_TestOne - 2018.05.06 at 19h 44m 52s.xml">
++      <configuration name="Unittests in TestOne" configurationId="tests" />
+     </history-entry>
+-    <history-entry file="Unittests_for_test1_TestOne_test_Tender - 2018.04.28 at 10h 09m 28s.xml">
+-      <configuration name="Unittests for test1.TestOne.test_Tender" configurationId="tests" />
++    <history-entry file="Unittests_in_TestOne - 2018.05.06 at 19h 47m 57s.xml">
++      <configuration name="Unittests in TestOne" configurationId="tests" />
+     </history-entry>
+-    <history-entry file="Unittests_in_TestOne - 2018.05.06 at 09h 36m 23s.xml">
++    <history-entry file="Unittests_in_TestOne - 2018.05.06 at 20h 05m 11s.xml">
+       <configuration name="Unittests in TestOne" configurationId="tests" />
+     </history-entry>
+-    <history-entry file="Unittests_in_TestOne - 2018.05.06 at 09h 38m 27s.xml">
++    <history-entry file="Unittests_in_TestOne - 2018.05.06 at 20h 11m 47s.xml">
+       <configuration name="Unittests in TestOne" configurationId="tests" />
+     </history-entry>
+-    <history-entry file="Unittests_in_TestOne_(1) - 2018.05.06 at 10h 06m 23s.xml">
+-      <configuration name="Unittests in TestOne (1)" configurationId="tests" />
++    <history-entry file="Unittests_in_TestOne - 2018.05.06 at 20h 14m 59s.xml">
++      <configuration name="Unittests in TestOne" configurationId="tests" />
+     </history-entry>
+     <history-entry file="Unittests_in_TestOne_(1) - 2018.05.06 at 10h 38m 35s.xml">
+       <configuration name="Unittests in TestOne (1)" configurationId="tests" />
+@@ -877,7 +869,8 @@
+     <MESSAGE value="修复断言时的一些bug" />
+     <MESSAGE value="修复基类初始化方法" />
+     <MESSAGE value="新增充值和提现页面" />
+-    <option name="LAST_COMMIT_MESSAGE" value="新增充值和提现页面" />
++    <MESSAGE value="优化页面" />
++    <option name="LAST_COMMIT_MESSAGE" value="优化页面" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+@@ -886,18 +879,6 @@
+     <watches-manager />
+   </component>
+   <component name="editorHistoryManager">
+-    <entry file="file://D:/Download/Python3/Lib/site-packages/selenium/common/exceptions.py" />
+-    <entry file="file://$PROJECT_DIR$/page/productList_Page.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="9" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/base/Base_Enmu.py" />
+-    <entry file="file://$PROJECT_DIR$/base/Base_Excel.py" />
+-    <entry file="file://$PROJECT_DIR$/base/Base_Statists.py" />
+-    <entry file="file://$PROJECT_DIR$/base/Base_Pickle.py" />
+     <entry file="file://$PROJECT_DIR$/page/loginPage.py">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="-43">
+@@ -947,16 +928,6 @@
+     <entry file="file://$PROJECT_DIR$/log/fireFox20180506100227/寻找元素超时ERROR.png" />
+     <entry file="file://$PROJECT_DIR$/log/fireFox20180506100541/寻找元素超时ERROR.png" />
+     <entry file="file://$PROJECT_DIR$/log/fireFox20180506100541/outPut.log" />
+-    <entry file="file://$PROJECT_DIR$/base/Base_Log.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="275">
+-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="18" />
+-          <folding>
+-            <element signature="e#0#14#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/base/Base_Page.py">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="10150">
+@@ -966,16 +937,6 @@
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/log/fireFox20180506103803/outPut.log" />
+-    <entry file="file://$PROJECT_DIR$/test_case/test1.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="100">
+-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+-          <folding>
+-            <element signature="e#0#51#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/log/fireFox20180506171154/寻找元素超时ERROR.png" />
+     <entry file="file://$PROJECT_DIR$/log/fireFox20180506171154/outPut.log" />
+     <entry file="file://$PROJECT_DIR$/base/page.py" />
+@@ -993,7 +954,7 @@
+         <state relative-caret-position="125">
+           <caret line="14" column="77" lean-forward="false" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+           <folding>
+-            <element signature="e#15#26#0" expanded="true" />
++            <element signature="e#15#26#0" expanded="false" />
+           </folding>
+         </state>
+       </provider>
+@@ -1006,29 +967,91 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/test_data/login.yaml">
++    <entry file="file://$PROJECT_DIR$/log/fireFox20180506183249/outPut.log">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="175">
+-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/base/Base_Operation.py">
++    <entry file="file://$PROJECT_DIR$/base/Base_Log.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="225">
+-          <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
++        <state relative-caret-position="315">
++          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="18" />
+           <folding>
+-            <element signature="e#0#33#0" expanded="true" />
++            <element signature="e#0#14#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/log/fireFox20180506183249/outPut.log">
++    <entry file="file://$PROJECT_DIR$/log/fireFox20180506194207/outPut.log">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="50">
++          <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="55" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/test_data/login.yaml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="75">
++          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/log/fireFox20180506194404/outPut.log">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="150">
++          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="60" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/log/fireFox20180506194710/outPut.log">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+           <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/log/fireFox20180506201103/outPut.log">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="50">
++          <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="55" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/base/Base_Operation.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="740">
++          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
++          <folding>
++            <element signature="e#0#33#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/log/fireFox20180506201411/投资寻找元素超时ERROR.png">
++      <provider selected="true" editor-type-id="images">
++        <state />
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/log/fireFox20180506201411/登录寻找元素超时ERROR.png">
++      <provider selected="true" editor-type-id="images">
++        <state />
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/test_case/test1.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="275">
++          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
++          <folding>
++            <element signature="e#0#51#0" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+Index: test_case/geckodriver.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- test_case/geckodriver.log	(date 1525602871000)
++++ test_case/geckodriver.log	(revision )
+@@ -3130,3 +3130,173 @@
+ Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+ [Child 2392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ [Parent 3644, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++1525606927629	geckodriver	INFO	geckodriver 0.19.1
++1525606927667	geckodriver	INFO	Listening on 127.0.0.1:58953
++1525606930596	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.hgxxnfIfAkal"
++1525606933214	Marionette	INFO	Enabled via --marionette
++1525606938105	Marionette	INFO	Listening on port 58964
++1525606938233	Marionette	WARN	TLS certificate errors will be ignored for this session
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 580: TypeError: version[1] is undefined
++[Child 6156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++[Child 6156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++[Child 4584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_wiUnable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++[Parent 8944, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++[Child 5960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++[Parent 8944, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++[Child 10008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++[Child 10008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++3: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++1525607095006	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++[Parent 11240, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++[Child 10452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++[Child 10452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++[Child 11004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++[Child 11004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++[Child 10392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++1525607231267	geckodriver	INFO	geckodriver 0.19.1
++1525607231294	geckodriver	INFO	Listening on 127.0.0.1:59362
++1525607234341	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.tSdYmrfAQmnV"
++1525607239021	Marionette	INFO	Enabled via --marionette
++1525607245364	Marionette	INFO	Listening on port 59370
++1525607246310	Marionette	WARN	TLS certificate errors will be ignored for this session
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 580: TypeError: version[1] is undefined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++1525607252185	geckodriver	INFO	geckodriver 0.19.1
++1525607252221	geckodriver	INFO	Listening on 127.0.0.1:59435
++1525607255298	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Ah84fNXDOwDK"
++1525607258317	Marionette	INFO	Enabled via --marionette
++1525607263189	Marionette	INFO	Listening on port 59443
++1525607263290	Marionette	WARN	TLS certificate errors will be ignored for this session
++1525608269843	geckodriver	INFO	geckodriver 0.19.1
++1525608269868	geckodriver	INFO	Listening on 127.0.0.1:59664
++1525608272956	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.xv7CE5OoQvhi"
++1525608275679	Marionette	INFO	Enabled via --marionette
++1525608281205	Marionette	INFO	Listening on port 59672
++1525608281621	Marionette	WARN	TLS certificate errors will be ignored for this session
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 580: TypeError: version[1] is undefined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++1525608287162	geckodriver	INFO	geckodriver 0.19.1
++1525608287231	geckodriver	INFO	Listening on 127.0.0.1:59733
++1525608290178	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.VEozNNYffxhU"
++1525608292955	Marionette	INFO	Enabled via --marionette
++1525608298001	Marionette	INFO	Listening on port 59741
++1525608298256	Marionette	WARN	TLS certificate errors will be ignored for this session
++1525608663270	geckodriver	INFO	geckodriver 0.19.1
++1525608663293	geckodriver	INFO	Listening on 127.0.0.1:59863
++1525608666389	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.GGAU1dcilvYr"
++1525608669335	Marionette	INFO	Enabled via --marionette
++1525608674055	Marionette	INFO	Listening on port 59873
++1525608674464	Marionette	WARN	TLS certificate errors will be ignored for this session
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 580: TypeError: version[1] is undefined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++1525608680214	geckodriver	INFO	geckodriver 0.19.1
++1525608680271	geckodriver	INFO	Listening on 127.0.0.1:59934
++1525608683078	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.vnzmNSnojemA"
++1525608685870	Marionette	INFO	Enabled via --marionette
++1525608691719	Marionette	INFO	Listening on port 59942
++1525608692782	Marionette	WARN	TLS certificate errors will be ignored for this session
++1525608852355	geckodriver	INFO	geckodriver 0.19.1
++1525608852384	geckodriver	INFO	Listening on 127.0.0.1:60040
++1525608855441	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.VEFB02KcBFpM"
++1525608858457	Marionette	INFO	Enabled via --marionette
++1525608863207	Marionette	INFO	Listening on port 60050
++1525608863519	Marionette	WARN	TLS certificate errors will be ignored for this session
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 580: TypeError: version[1] is undefined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
++1525608869377	geckodriver	INFO	geckodriver 0.19.1
++1525608869417	geckodriver	INFO	Listening on 127.0.0.1:60111
++1525608872312	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.NzPOCJ8SCudZ"
++1525608875253	Marionette	INFO	Enabled via --marionette
++1525608880113	Marionette	INFO	Listening on port 60119
++1525608880470	Marionette	WARN	TLS certificate errors will be ignored for this session
+Index: base/geckodriver.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- base/geckodriver.log	(date 1525602871000)
++++ base/geckodriver.log	(revision )
+@@ -68,5 +68,14 @@
+ 1525602775330	Marionette	INFO	Enabled via --marionette
+ 1525602780111	Marionette	INFO	Listening on port 58629
+ 1525602780504	Marionette	WARN	TLS certificate errors will be ignored for this session
+-les_ping
+ Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++[Child 7088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++[Parent 5760, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++[Child 7088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++[Child 8768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++[Child 8768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++[Parent 5760, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
++Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
++[Child 9020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/encodings.xml	(date 1525602871000)
++++ .idea/encodings.xml	(revision )
+@@ -2,5 +2,9 @@
+ <project version="4">
+   <component name="Encoding">
+     <file url="file://$PROJECT_DIR$/log/fireFox20180506183249/outPut.log" charset="GBK" />
++    <file url="file://$PROJECT_DIR$/log/fireFox20180506194207/outPut.log" charset="GBK" />
++    <file url="file://$PROJECT_DIR$/log/fireFox20180506194404/outPut.log" charset="GBK" />
++    <file url="file://$PROJECT_DIR$/log/fireFox20180506194710/outPut.log" charset="GBK" />
++    <file url="file://$PROJECT_DIR$/log/fireFox20180506201103/outPut.log" charset="GBK" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: base/Base_Operation.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- base/Base_Operation.py	(date 1525602871000)
++++ base/Base_Operation.py	(revision )
+@@ -41,7 +41,7 @@
+ 
+         except selenium.common.exceptions.TimeoutException:
+             dic={"result": False, "type": '寻找元素超时'}
+-            logTest.screenshotERROR(self,'寻找元素超时')
++
+             return dic
+         finally:
+             self.check_Points(check, logTest, testInfo)
+@@ -57,6 +57,7 @@
+                 'expect':check['check_title'],
+                 'now':title
+             }
++            logTest.screenshotERROR(self, testInfo['title'] + '寻找元素超时')
+             fail_reason=str(fail_reason)
+             logTest.buildEndLine(testInfo["id"] + "_" + testInfo["title"] + "_" + '测试失败'+'_'+'失败原因'+fail_reason)
+ 
+Index: test_data/login.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- test_data/login.yaml	(date 1525602871000)
++++ test_data/login.yaml	(revision )
+@@ -4,9 +4,7 @@
+       url: https://www.shaxiaoseng.com/User/login.html
+       info: 打开testerhome
+ testcase:
+-    - element_info: class=>btn-j
+-      operte_type: click
+-      info: 立即加入
++
+     - element_info: id=>tel
+       operte_type: input
+       msg: 13511111105
+Index: test_case/test1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- test_case/test1.py	(date 1525602871000)
++++ test_case/test1.py	(revision )
+@@ -2,9 +2,9 @@
+ from page.loginPage import LoginPage
+ import unittest
+ from base.Base_Log import myLog
+-from base.Base_Operation import operation_Element
++from base.Base_Operation import operation_Element,getTestData
+ from selenium import webdriver
+-from utils import operate_file
++
+ #import HTMLTestRunner
+ 
+ class TestOne(unittest.TestCase):
+@@ -14,42 +14,22 @@
+         driver = webdriver.Firefox()
+         self.page = operation_Element(driver)
+     def test_Login_1(self):
+-        f = operate_file('D:/my_python/Sxs_Web/test_data/login.yaml')
+-        result = f.open()
+-        print(result)
+-        test_case = result['testcase']
+-        test_info = result['testinfo']
+-        check = result['check'][0]
+-        self.page.open('https://www.shaxiaoseng.com/User/login.html')
+-        self.page.operate(self.logTest, test_info, test_case, check)
+-        # page = LoginPage(self.driver)
+-        # page.open('https://pc.shaxiaoseng.com:4433/User/login.html')
+-        # print(page.get_title())
+-        # account = '13521137793'
+-        # passwd = '1111112'
+-        # page.input_account(account)
+-        # page.input_passwd(passwd)
+-        # page.click_LoginSubmit('沙小僧-取金路上 小沙为您保驾护航')
++        result = getTestData('D:/my_python/Sxs_Web/test_data/login.yaml')
++        self.page.open(result[0]['url'])
++        self.page.operate(self.logTest, result[0], result[1], result[2])
++
+ 
+ 
+ 
+     def test_Tender(self):
+-        f = operate_file('D:/my_python/Sxs_Web/test_data/invest.yaml')
+-        result = f.open()
+-        print(result)
+-        test_case = result['testcase']
+-        test_info = result['testinfo']
+-        check = result['check'][0]
+-        self.page.open('https://www.shaxiaoseng.com/Product/index.html')
+-        self.page.operate(self.logTest, test_info, test_case, check)
+-    #     page = sbConfimBuy_page(self.driver)
+-    #     page.open('https://pc.shaxiaoseng.com:4433/Product/index.html')
+-    #     #self.page.click_HomeLoginBtn('13511111105','111111')
+-    #     page.pick_element('FY180427926163')
+-        #self.page.click
++        result = getTestData('D:/my_python/Sxs_Web/test_data/invest.yaml')
++        self.page.open(result[0]['url'])
++        self.page.operate(self.logTest, result[0], result[1], result[2])
++
+ 
+     def tearDown(self):
+-        pass
++        self.page.close()
++
+         #self.driver.close()
+ 
+ if __name__ == "__main__":
