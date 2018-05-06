@@ -4,9 +4,7 @@ testinfo:
       url: https://www.shaxiaoseng.com/User/login.html
       info: 打开testerhome
 testcase:
-    - element_info: class=>btn-j
-      operte_type: click
-      info: 立即加入
+
     - element_info: id=>tel
       operte_type: input
       msg: 13511111105

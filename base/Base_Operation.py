@@ -41,7 +41,7 @@ class operation_Element(Action):
 
         except selenium.common.exceptions.TimeoutException:
             dic={"result": False, "type": '寻找元素超时'}
-            logTest.screenshotERROR(self,'寻找元素超时')
+
             return dic
         finally:
             self.check_Points(check, logTest, testInfo)
@@ -57,6 +57,7 @@ class operation_Element(Action):
                 'expect':check['check_title'],
                 'now':title
             }
+            logTest.screenshotERROR(self, testInfo['title'] + '寻找元素超时')
             fail_reason=str(fail_reason)
             logTest.buildEndLine(testInfo["id"] + "_" + testInfo["title"] + "_" + '测试失败'+'_'+'失败原因'+fail_reason)
 
