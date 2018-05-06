@@ -1,19 +1,26 @@
 testinfo:
     - id: test001
       title: 登录
+      url: https://www.shaxiaoseng.com/User/login.html
       info: 打开testerhome
 testcase:
+    - element_info: class=>btn-j
+      operte_type: click
+      info: 立即加入
     - element_info: id=>tel
+      operte_type: input
       msg: 13511111105
       info: 输入用户名
     - element_info: id=>password
+      operte_type: input
       msg: 111111
       info: 输入密码
     - element_info: id=>login
+      operte_type: click
       info: 点击登录
-
 check:
-    - element_info: //ul[@class='dropdown-menu']/li/a[contains(text(),'lose')]
+    - check_element: //ul[@class='dropdown-menu']/li/a[contains(text(),'lose')]
+      check_title: 登录1
       find_type: xpath
       check: default_check(默认可以不传，就是简单的查找页面元素)
       info: 查找用户名成功

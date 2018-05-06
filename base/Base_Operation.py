@@ -5,17 +5,28 @@ from base.Base_Page import Action
 from utils import operate_file
 
 
+def getTestData(filename):
+    testData=[]
+    path=filename
+    result_f=operate_file(path)
+    result = result_f.open()
+    test_case = result['testcase']
+    test_info=result['testinfo'][0]
+    check = result['check'][0]
+    testData.append(test_info)
+    testData.append(test_case)
+    testData.append(check)
+    return testData
+
 class operation_Element(Action):
     def __init__(self,driver):
         super(operation_Element, self).__init__(driver)
 
-
     def operate(self,logTest,testInfo,case_dic,check):
-
         try:
             for case in case_dic:
                 info = str(case['info']+'-'+case['operte_type'])
-                logTest.buildStartLine(testInfo[0]["id"] + "_" + testInfo[0]["title"] + "_" + info)
+                logTest.buildStartLine(testInfo["id"] + "_" + testInfo["title"] + "_" + info)
                 if 'pick_dealNo' == case['operte_type']:
                     self.pick_element(case['deal_no'])
                 elif  'click' == case['operte_type']:
@@ -33,29 +44,33 @@ class operation_Element(Action):
             logTest.screenshotERROR(self,'寻找元素超时')
             return dic
         finally:
-            self.check_Points(check, logTest, test_info)
+            self.check_Points(check, logTest, testInfo)
 
 
             #raise Exception
     def check_Points(self,check,logTest,testInfo):
         title=self.get_title()
         if title == check['check_title']:
-            logTest.buildEndLine(testInfo[0]["id"] + "_" + testInfo[0]["title"] + "_" + '测试通过')
+            logTest.buildEndLine(testInfo["id"] + "_" + testInfo["title"] + "_" + '测试通过')
         else:
-            logTest.buildEndLine(testInfo[0]["id"] + "_" + testInfo[0]["title"] + "_" + '测试失败')
+            fail_reason={
+                'expect':check['check_title'],
+                'now':title
+            }
+            fail_reason=str(fail_reason)
+            logTest.buildEndLine(testInfo["id"] + "_" + testInfo["title"] + "_" + '测试失败'+'_'+'失败原因'+fail_reason)
 
 
 if __name__ =='__main__':
-    f= operate_file('D:\\Python\\Sxs_Web\\test_data\\invest.yaml')
-    result = f.open()
-    test_case = result['testcase']
-    test_info=result['testinfo']
-    check = result['check'][0]
-
+    result=getTestData('D:/my_python/Sxs_Web/test_data/invest.yaml')
+    test_case = result[1]
+    test_info=result[0]
+    check = result[2]
+    print(test_info)
     logTest = myLog.getLog("fireFox")
     driver = webdriver.Firefox()
     page = operation_Element(driver)
-    page.open('https://pc.shaxiaoseng.com:4433/Product/index.html')
+    page.open(test_info['url'])
     page.operate(logTest,test_info,test_case,check)
 
 
