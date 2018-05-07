@@ -165,6 +165,7 @@ class Action(object):
 		driver.clear("css=>#el")
 		'''
 		el = self.get_element(css)
+		print(22222222222222222222222222222222222222)
 		el.clear()
 
 	def click(self, css):

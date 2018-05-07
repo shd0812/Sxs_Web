@@ -47,6 +47,10 @@ class myAssert_page(Home_Page):
 
     def myAssertClick_RechargeBtn(self):
         self.jump_page(self.rechargeBtn_loc,'充值')
+        self.clear('id=>money')
+       # str = self.get_attribute('id=>money','vaule')
+        self.input('id=>money',100)
+       # print(str)
         #self.open_new_window(self.quickRecharge_loc)
         #page = recharge.reCharge_Page('ff')
 

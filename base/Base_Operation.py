@@ -3,7 +3,7 @@ from selenium import webdriver
 from base.Base_Log import myLog
 from base.Base_Page import Action
 from utils import operate_file
-
+from  time import  sleep
 
 def getTestData(filename):
     testData=[]
@@ -31,7 +31,11 @@ class operation_Element(Action):
                     self.pick_element(case['deal_no'])
                 elif  'click' == case['operte_type']:
                     self.click(case['element_info'])
+                elif  'click-wait' == case['operte_type']:
+                    self.click(case['element_info'])
+                    sleep(10)
                 elif 'input' == case['operte_type']:
+                    self.clear(case['element_info'])
                     self.input(case['element_info'], case['msg'])
                 elif 'open_new_window' == case['operte_type']:
                     self.open_new_window(case['element_info'])
@@ -63,7 +67,7 @@ class operation_Element(Action):
 
 
 if __name__ =='__main__':
-    result=getTestData('D:/my_python/Sxs_Web/test_data/recharge/recharge.yaml')
+    result=getTestData('D:/Python/Sxs_Web/test_data/recharge/recharge.yaml')
     test_case = result[1]
     test_info=result[0]
     check = result[2]

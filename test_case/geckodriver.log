@@ -3300,3 +3300,177 @@ JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: Referen
 1525608875253	Marionette	INFO	Enabled via --marionette
 1525608880113	Marionette	INFO	Listening on port 60119
 1525608880470	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525671832079	geckodriver	INFO	geckodriver 0.20.0
+1525671832108	geckodriver	INFO	Listening on 127.0.0.1:55760
+1525671835145	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.cnbw1LBI63Ne"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525671837010	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525671841872	Marionette	INFO	Listening on port 55776
+1525671842568	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525671842698	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///D:/Download/soft/Borrow/Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///D:/Download/soft/Borrow/Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+[Child 29088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2[Parent 2952, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2952, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 191*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525671845186	geckodriver::marionette	ERROR	Failed to stop browser process
+1525671901042	geckodriver	INFO	geckodriver 0.20.0
+1525671901055	geckodriver	INFO	Listening on 127.0.0.1:55900
+1525671904053	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.U4DvBVr8sNbq"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525671905596	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525671908936	Marionette	INFO	Listening on port 55914
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525671909432	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+[Child 3828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3828[Child 27116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27116, [Parent 35556, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525671914979	geckodriver::marionette	ERROR	Failed to stop browser process
+1525671970419	geckodriver	INFO	geckodriver 0.20.0
+1525671970428	geckodriver	INFO	Listening on 127.0.0.1:56066
+1525671973440	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.BLhPpVHtxYot"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525671974610	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525671977696	Marionette	INFO	Listening on port 56078
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525671978732	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+[Parent 36536, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525671984420	geckodriver::marionette	ERROR	Failed to stop browser process
+1525671985283	geckodriver	INFO	geckodriver 0.20.0
+1525671985294	geckodriver	INFO	Listening on 127.0.0.1:56155
+1525671988323	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.uRQfdiN7o5WN"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525671989594	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525671992622	Marionette	INFO	Listening on port 56169
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525671993636	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 25728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25728, Chrome_ChildTh[Parent 25444, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1700, C[Parent 25444, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 36340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 36*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525672009555	geckodriver::marionette	ERROR	Failed to stop browser process
+1525673555407	geckodriver	INFO	geckodriver 0.20.0
+1525673555420	geckodriver	INFO	Listening on 127.0.0.1:58353
+1525673558419	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.zOsIoxpLC9gx"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525673560090	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525673564662	Marionette	INFO	Listening on port 58365
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525673565272	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html, line 563: ReferenceError: event is not defined
+[Parent 22272, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27508, C[Parent 22272, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 35560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 355*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525673572836	geckodriver::marionette	ERROR	Failed to stop browser process
+1525673573861	geckodriver	INFO	geckodriver 0.20.0
+1525673573873	geckodriver	INFO	Listening on 127.0.0.1:58433
+1525673576865	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.NuMLpDKcjU0i"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525673578302	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525673582290	Marionette	INFO	Listening on port 58442
+1525673582842	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+[Child 34512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 34512,[Child 2060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2060, [Parent 25644, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 36944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525673598487	geckodriver::marionette	ERROR	Failed to stop browser process

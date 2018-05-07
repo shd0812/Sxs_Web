@@ -22,7 +22,7 @@ class Home_Page(LoginPage):
 
 
 if __name__ == '__main__':
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     home = Home_Page(driver)
     home.open('https://pc.shaxiaoseng.com:4433')
     home.click_HomeLoginBtn('13511111105','111111')

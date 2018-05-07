@@ -10,11 +10,11 @@ from selenium import webdriver
 class TestOne(unittest.TestCase):
     def setUp(self):
         #self.driver=webdriver.Firefox()
-        self.logTest = myLog.getLog("fireFox")
-        driver = webdriver.Firefox()
+        self.logTest = myLog.getLog("Chrome")
+        driver = webdriver.Chrome()
         self.page = operation_Element(driver)
     def test_Login_1(self):
-        result = getTestData('D:/my_python/Sxs_Web/test_data/login.yaml')
+        result = getTestData('D:/Python/Sxs_Web/test_data/login/login.yaml')
         self.page.open(result[0]['url'])
         self.page.operate(self.logTest, result[0], result[1], result[2])
 
@@ -22,7 +22,7 @@ class TestOne(unittest.TestCase):
 
 
     def test_Tender(self):
-        result = getTestData('D:/my_python/Sxs_Web/test_data/invest.yaml')
+        result = getTestData('D:/Python/Sxs_Web/test_data/invest/invest.yaml')
         self.page.open(result[0]['url'])
         self.page.operate(self.logTest, result[0], result[1], result[2])
 

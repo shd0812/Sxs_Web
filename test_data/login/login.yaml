@@ -1,7 +1,7 @@
 testinfo:
     - id: test001
       title: 登录
-      url: https://www.shaxiaoseng.com/User/login.html
+      url: https://pc.shaxiaoseng.com:4433/User/login.html
       info: 打开testerhome
 testcase:
 

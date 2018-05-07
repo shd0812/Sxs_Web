@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/log/fireFox20180506183249/outPut.log" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/log/fireFox20180506194207/outPut.log" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/log/fireFox20180506194404/outPut.log" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/log/fireFox20180506194710/outPut.log" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/log/fireFox20180506201103/outPut.log" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/log/fireFox20180506215732/outPut.log" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/log/fireFox20180506215950/outPut.log" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/log/fireFox20180507142247/outPut.log" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/log/fireFox20180507142603/outPut.log" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/log/fireFox20180507144809/outPut.log" charset="GBK" />
   </component>
 </project>

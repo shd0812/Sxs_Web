@@ -1,10 +1,10 @@
 testinfo:
     - id: test001
       title: 投资
-      url: https://www.shaxiaoseng.com/Product/index.html
+      url: https://pc.shaxiaoseng.com:4433/Product/index.html
       info: 打开testerhome
 testcase:
-    - deal_no: QY18050513784
+    - deal_no: FY18050714385
       operte_type: pick_dealNo
       info: 散标编号
     - element_info: xpath=>//*[@id="form"]/input[2]
@@ -35,9 +35,17 @@ testcase:
     - element_info: id=>buy-btn
       operte_type: open_new_window
       info: 确认支付
+    - element_info: id=>password
+      operte_type: input
+      msg: 111111
+      info: 输入新网交易密码
+    - element_info: id=>nextButton
+      operte_type: click-wait
+      info: 同意协议并支付
+
 check:
     - check_element: //ul[@class='dropdown-menu']/li/a[contains(text(),'lose')]
-      check_title: 登录1
+      check_title: 标的出借结果
       find_type: xpath
       check: default_check(默认可以不传，就是简单的查找页面元素)
       info: 查找用户名成功

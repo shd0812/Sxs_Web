@@ -1171,3 +1171,393 @@ JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1525677381693	geckodriver	INFO	geckodriver 0.20.0
+1525677381721	geckodriver	INFO	Listening on 127.0.0.1:63184
+1525677384768	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.lnXvDiU22s6j"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677386286	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677389376	Marionette	INFO	Listening on port 63196
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677390372	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Child 37404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 37404, Chro[Child 32680
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525677455369	geckodriver	INFO	geckodriver 0.20.0
+1525677455379	geckodriver	INFO	Listening on 127.0.0.1:63374
+1525677458409	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.DB8e26e96CiL"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677459902	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677463170	Marionette	INFO	Listening on port 63387
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677463796	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Parent 37036, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo1525677507457	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.quP5RMYS2Svm"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677508996	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677512634	Marionette	INFO	Listening on port 63551
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677513060	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Parent 35952, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 35952, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26368[Child 11688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11688,[Parent 35952, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2678
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525677834800	geckodriver	INFO	geckodriver 0.20.0
+1525677834813	geckodriver	INFO	Listening on 127.0.0.1:64351
+1525677837836	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.BTN021qFv4fe"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677839290	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677843850	Marionette	INFO	Listening on port 64363
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677844346	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Parent 29972, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo1525677891078	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.zyyCaHdAzlrK"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677892494	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677895690	Marionette	INFO	Listening on port 64520
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677896380	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Parent 23628, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 23628, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 34452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 34452, [Parent 23628, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+om C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677935950	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Child 35500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/co1525677967607	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.8PmSHakMdQ6u"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677969490	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677973176	Marionette	INFO	Listening on port 64839
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525677974270	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Child 29212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/co1525678016486	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.JhZln1Atrq6p"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678017998	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678021232	Marionette	INFO	Listening on port 64999
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678022000	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Parent 26444, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 26444, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/s1525678072678	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.a7JmGeL2yezU"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678074328	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678077730	Marionette	INFO	Listening on port 65176
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678078200	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Parent 844, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/1525678123305	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.v1eKkZ6LOmBi"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678124844	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678128044	Marionette	INFO	Listening on port 65352
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678128658	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Parent 13884, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13884, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19264, C[Parent 13884, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525678339421	geckodriver	INFO	geckodriver 0.20.0
+1525678339431	geckodriver	INFO	Listening on 127.0.0.1:49462
+1525678342481	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.3n1hu6pFnudj"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678343852	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678347092	Marionette	INFO	Listening on port 49474
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678347984	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Parent 18884, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo1525678382765	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.5dNkQNRaRS2U"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678384278	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678387570	Marionette	INFO	Listening on port 49614
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678388076	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Parent 9904, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common1525678419084	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.Wz9yDtW9D2Fx"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678421028	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678424172	Marionette	INFO	Listening on port 49756
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525678424736	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://www.shaxiaoseng.com/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Parent 20804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 20804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7544[Parent 20804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 34412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3441*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

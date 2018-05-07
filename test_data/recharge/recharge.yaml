@@ -1,7 +1,7 @@
 testinfo:
     - id: test001
       title: 登录
-      url: https://www.shaxiaoseng.com/
+      url: https://pc.shaxiaoseng.com:4433
       info: 打开testerhome
 testcase:
 
@@ -10,7 +10,7 @@ testcase:
       info: 点击我的账户
     - element_info: id=>tel
       operte_type: input
-      msg: 13521137793
+      msg: 13533333304
       info: 输入用户名
     - element_info: id=>password
       operte_type: input
