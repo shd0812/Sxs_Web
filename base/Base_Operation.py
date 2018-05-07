@@ -54,26 +54,28 @@ class operation_Element(Action):
             #raise Exception
     def check_Points(self,check,logTest,testInfo):
         title=self.get_title()
-        if title == check['check_title']:
+        text = self.get_text(check['check_element'])
+        if title == check['check_title'] or text==check['check_element_text']:
             logTest.buildEndLine(testInfo["id"] + "_" + testInfo["title"] + "_" + '测试通过')
         else:
             fail_reason={
                 'expect':check['check_title'],
                 'now':title
             }
+            fail_reason = str(fail_reason)
             logTest.screenshotERROR(self, testInfo['title'] + '寻找元素超时')
-            fail_reason=str(fail_reason)
+
             logTest.buildEndLine(testInfo["id"] + "_" + testInfo["title"] + "_" + '测试失败'+'_'+'失败原因'+fail_reason)
 
 
 if __name__ =='__main__':
-    result=getTestData('D:/Python/Sxs_Web/test_data/recharge/recharge.yaml')
+    result=getTestData('D:/Python/Sxs_Web/test_data/withdraw/withdraw.yaml')
     test_case = result[1]
     test_info=result[0]
     check = result[2]
     print(test_info)
-    logTest = myLog.getLog("fireFox")
-    driver = webdriver.Firefox()
+    logTest = myLog.getLog("Chrome")
+    driver = webdriver.Chrome()
     page = operation_Element(driver)
     page.open(test_info['url'])
     page.operate(logTest,test_info,test_case,check)

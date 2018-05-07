@@ -1,6 +1,6 @@
 testinfo:
     - id: test001
-      title: 投资
+      title: 提现
       url: https://pc.shaxiaoseng.com:4433
       info: 打开testerhome
 testcase:
@@ -19,27 +19,26 @@ testcase:
     - element_info: id=>login
       operte_type: click
       info: 点击登录
-    - element_info: class=>recharge
+    - element_info: class=>withdraw
       operte_type: click
-      info: 充值
+      info: 提现
     - element_info: id=>money
       operte_type: input
-      msg: 100
-      info: 输入充值金额
+      msg: 10
+      info: 输入提现金额
     - element_info: class=>cz-btn1
       operte_type: open_new_window
-      info: 立即充值
+      info: 确认提现
     - element_info: id=>password
       operte_type: input
       msg: 111111
       info: 输入新网交易密码
     - element_info: id=>nextButton
       operte_type: click-wait
-      info: 同意协议并支付
+      info: 确定
 check:
     - check_element: xpath=>/html/body/div[2]/div[2]
-      check_element_text: 充值成功1
-      check_title: '1'
-      find_type: xpath
+      check_element_text: 提现成功
+      check_title: ''
       check: default_check(默认可以不传，就是简单的查找页面元素)
       info: 查找用户名成功

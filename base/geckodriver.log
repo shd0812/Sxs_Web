@@ -712,3 +712,36 @@ JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/
 JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
 JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
 JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Child 5248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome[Chi1525679083266	mozrunner::runner	INFO	Running command: "D:\\Download\\soft\\Borrow\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shd\\AppData\\Local\\Temp\\rust_mozprofile.uQ5ECwGlxXUd"
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525679084672	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525679088278	Marionette	INFO	Listening on port 51828
+Unable to read VR Path Registry from C:\Users\shd\AppData\Local\openvr\openvrpaths.vrpath
+1525679089038	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 580: TypeError: version[1] is undefined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+JavaScript error: https://pc.shaxiaoseng.com:4433/User/login.html?redirect_url=/User/my, line 563: ReferenceError: event is not defined
+[Parent 8852, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8852, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 50[Child 12956, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
